@@ -1,14 +1,33 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""Module documentation goes here
+   and here
+   and ...
+"""
+
+import argparse
+import sys
+# import json
 from datetime import datetime
-from os.path import basename, join
-from shutil import copyfileobj
+from os.path import join
 from tempfile import gettempdir
 
 import requests
 
-
-class Collections(object):
+try:
+    from tqdm import tqdm
+except ImportError:
     pass
+    # from .silly import tqdm
 
+__author__ = "Sandro Klippel"
+__copyright__ = "Copyright 2020, Sandro Klippel"
+__license__ = "MIT"
+__version__ = "0.1.0"
+__maintainer__ = "Sandro Klippel"
+__email__ = "sandroklippel at gmail.com"
+__status__ = "Prototype"
 
 class Item(object):
     """Class to parse items from INPE STAC Catalog"""
@@ -20,7 +39,8 @@ class Item(object):
         """
         docstring
         """
-        return "{0}\t{1}\t{2:.1f}%\t{3} asset(s)".format(self.id, self.date, self.get_property('cloud_cover'), len(self.assets))
+        row = "{id:<30s} {date:^15s} {cloud:>15.1f}".format
+        return row(id=self.id, date=self.date, cloud=self.get_property('cloud_cover'))
 
     def __lt__(self, other):
         """
@@ -73,9 +93,9 @@ class Item(object):
     @property
     def assets(self):
         """
-        Unique keys of the dictionary of asset objects that can be downloaded.
+        Unique keys of asset objects that can be downloaded.
         """
-        return self._feature['assets'].keys()
+        return list(self._feature['assets'].keys())
 
     def get_datetime(self):
         """
@@ -108,15 +128,22 @@ class Item(object):
         Download the asset.
         """
         url = self._feature['assets'][asset]['href']
-        filename = basename(url)
+        filename = url.split("/")[-1]
         outfile = join(outdir, filename)
-        with session.get(url, params={'key': credential}, stream=True) as r:
-            if r.status_code == 200:
-                with open(outfile, 'wb') as f:
-                    copyfileobj(r.raw, f)
-                return outfile
-            else:
-                return r.reason
+
+        r = session.get(url, params={'key': credential}, stream=True, allow_redirects=True)
+        if r.status_code == 200:
+            total_size = int(r.headers.get('content-length'))
+            initial_pos = 0
+            with open(outfile,'wb') as f:
+                with tqdm(total=total_size, unit='B', unit_scale=True, desc=filename, initial=initial_pos, ascii=True) as pbar:
+                    for ch in r.iter_content(chunk_size=1024):
+                        if ch:
+                            f.write(ch)
+                            pbar.update(len(ch))
+            return outfile
+        else:
+            return 'ERROR in ' + url + ' (' + r.reason + ')'
 
 
 class ItemCollection(object):
@@ -186,13 +213,50 @@ class ItemCollection(object):
         return self.items()
 
 
+class Collections(object):
+    """Simple class to parse collections json from INPE STAC"""
+    
+    def __init__(self, data):
+        """
+        docstring
+        """
+        self._data = data
+
+    def __getitem__(self, k):
+        """
+        docstring
+        """
+        try:
+            return next(filter(lambda i: i['id'] == k, self._data['collections']))
+        except StopIteration:
+            raise KeyError(k)
+
+    def __iter__(self):
+        """
+        docstring
+        """
+        for i in [(collection['id'], collection['description']) for collection in self._data['collections']]:
+            yield i
+
+    def get_spatial_extent(self, id):
+        """
+        docstring
+        """
+        return self.__getitem__(id)['extent']['spatial']
+
+    def get_temporal_extent(self, id):
+        """
+        docstring
+        """
+        return self.__getitem__(id)['extent']['temporal']
+
 class Search(object):
     """Simple class to search INPE STAC Catalog"""
     
     # INPE STAC Catalog 
-    base_url = 'http://www2.dgi.inpe.br/inpe-stac/stac'
+    base_url = 'http://www2.dgi.inpe.br/inpe-stac'
     collection_endpoint = '/collections'
-    search_endpoint = '/search'
+    search_endpoint = '/stac/search'
 
     # http
     timeout = 12
@@ -220,11 +284,19 @@ class Search(object):
         if query_keys is not None:
             self.query(**query_keys)
         self.update(**search_keys)
-        r = self.session.post(self.base_url + self.search_endpoint, json=self.search_keys)
-        if r.status_code == 200:
-            return ItemCollection(r.json())
+        if 'ids' in self.search_keys:
+            features = []
+            for id in self.search_keys['ids']:
+                r = self.session.get(self.base_url + self.collection_endpoint + '/X/items/' + id)
+                if r.status_code == 200:
+                    feat = r.json()
+                    if feat['type'] == 'Feature':
+                        features.append(feat)
+            return ItemCollection({"type": "FeatureCollection", "features": features})
         else:
-            return r.reason
+            r = self.session.post(self.base_url + self.search_endpoint, json=self.search_keys)
+            if r.status_code == 200:
+                return ItemCollection(r.json())
 
     def update(self, **search_keys):
         """
@@ -284,7 +356,7 @@ class Search(object):
 
     def intersects(self, intersects):
         """
-        docstring
+        Only for future. Today, INPE-STAC does not support this feature.
         """
         self.update(intersects=intersects)
 
@@ -329,6 +401,15 @@ class Search(object):
         """
         return self.session is None
 
+    @staticmethod
+    def get_collections():
+        """
+        docstring
+        """
+        with requests.get(url=Search.base_url + Search.collection_endpoint) as res:
+            if res.status_code == 200:
+                return Collections(res.json())
+
 
     #     bbox list float Only features that have a geometry that intersects the bounding box are selected
     #     datetime str Either a date-time or an interval, open or closed. Date and time expressions adhere to RFC 3339.
@@ -345,11 +426,93 @@ class Search(object):
     #         "collections": ['CBERS4A_WPM_L4_DN'],
     #         "limit":100}
 
-def cli(parameter_list):
+def parseargs():
+    """parse command line arguments
     """
-    docstring
+
+    # description
+    parser = argparse.ArgumentParser(description='Search and download CBERS4A imagery from INPE', epilog=__copyright__)
+
+    # actions group options
+    actions_group = parser.add_argument_group('actions')
+    mutual_group = actions_group.add_mutually_exclusive_group()
+    mutual_group.add_argument('--print', dest='print', action='store_true', default=True, help='search and print a list with matched items (default)')
+    mutual_group.add_argument('--download', dest='download', metavar='CREDENTIAL', type=str, help='search and download matched items')
+
+    # search group options 
+    search_group = parser.add_argument_group('search options')
+    search_group.add_argument('-i', '--id', dest='ids', action='append', metavar='ITEM_ID', help='item to return, ignores everything else')
+    search_group.add_argument('-c', '--collection', dest='collections', metavar='COLLECTION_ID', action='append', help='collection to search for items')
+    search_group.add_argument('--spat', dest='bbox', metavar=('XMIN', 'YMIN', 'XMAX', 'YMAX'), nargs=4, type=float, help='the area of interest (WGS84)')
+    # NOW can be used for the current day?
+    search_group.add_argument('--date', dest='date', metavar=('BEGIN','END'), nargs=2, type=str, help='begin and end date given in the format YYYY-MM-DD')
+    search_group.add_argument('--cloud_cover', dest='cloud_cover', metavar='NUM', type=int, help='maximum cloud cover percentage')
+    search_group.add_argument('--path_row', dest='path_row', metavar=('PATH','ROW'), nargs=2, type=int, help='orbit (path) and scene center (row)')
+    search_group.add_argument('--limit', dest='limit', type=int, metavar='LIMIT', default=10, help='maximum number of items of each collection to return (defaults to 10)')
+
+    # print group options
+    print_group = parser.add_argument_group('print options')
+    listing_group = print_group.add_mutually_exclusive_group()
+    listing_group.add_argument('-t', '--total', dest='total', action='store_true', default=False, help='suppress listing, show only the number of matched items')
+    listing_group.add_argument('--detail', dest='detail', action='store_true', default=False, help='also lists available assets')
+
+    # download group options
+    download_group = parser.add_argument_group('download options')
+    download_group.add_argument('-a', '--asset', dest='assets', metavar='ASSET_ID', action='append', help='download only specified asset (default: all)')
+    download_group.add_argument('--save', dest='jsonfile', metavar='FILENAME', help='also save items as a FeaturesCollection GeoJSON file')
+    download_group.add_argument('-o', '--outdir', dest='outdir', metavar='/path/to/output/dir/', help='output directory')
+
+    # general options
+    parser.add_argument('-l', '--list', dest='list_collections', action='store_true', help='list available collections and exit')
+    parser.add_argument('--version', action='version', version=__version__)
+
+    args = parser.parse_args()
+    params = vars(args)
+    return {k: params[k] for k in params.keys() if params[k] is not None}
+
+def cli():
+    """ command line interface
     """
-    pass
+    # get parameters 
+    params = parseargs()
+    # print(params)
+
+    if params['list_collections']:
+        # just list collections in INPE-STAC
+        inpe_collections = Search.get_collections()
+        print('{id:<20s} {desc:<50s}'.format(id='id', desc='description'))
+        for id, description in inpe_collections:
+            print(f'{id:<20s} {description:<50s}')
+    else:
+        init_keys = {k: params[k] for k in params.keys() if k in ['ids', 'collections', 'bbox', 'limit']}
+        if params['total'] and 'download' not in params:
+            init_keys.update({'limit': 0})
+        search_inpe_stac = Search(**init_keys)
+        if 'date' in params:
+            search_inpe_stac.date(*params['date'])
+        if 'cloud_cover' in params:
+            search_inpe_stac.cloud_cover('<=', params['cloud_cover'])
+        if 'path_row' in params:
+            search_inpe_stac.path_row(*params['path_row'])
+        # do search
+        result = search_inpe_stac()
+        # actions choice
+        if 'download' in params:
+            for item in result:
+                for asset in params.get('assets', item.assets):
+                    item.download(asset, params['download'], session=search_inpe_stac.session)
+        elif params['total']:
+            print(result.matched)
+        else:
+            head = "{id:<30s} {date:^15s} {cloud:>15s}".format(id='id', date='date', cloud='cloud cover (%)')
+            print(head + '    assets' if params['detail'] else head)
+            for item in result:
+                print(str(item) + '    ' + ' '.join(item.assets) if params['detail'] else item)
+            if not result.complete:
+                print('There are more items found ({0}) than the returned ({1}).'.format(result.matched, result.returned), 
+                file=sys.stderr)
+        search_inpe_stac.close()
+
         
 if __name__ == "__main__":
-    cli()
+    sys.exit(cli())
