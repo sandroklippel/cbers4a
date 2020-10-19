@@ -1,6 +1,28 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# MIT License
+
+# Copyright (c) 2020 Sandro Klippel
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
 """Module documentation goes here
    and here
    and ...
@@ -8,7 +30,7 @@
 
 import argparse
 import sys
-# import json
+import json
 from datetime import datetime
 from os.path import join
 from tempfile import gettempdir
@@ -18,8 +40,8 @@ import requests
 try:
     from tqdm import tqdm
 except ImportError:
-    pass
-    # from .silly import tqdm
+    from progressbar import ContextManagerPrintBytes as tqdm # mimics tdqm
+    # from .cbers4a import ContextManagerPrintBytes as tqdm
 
 __author__ = "Sandro Klippel"
 __copyright__ = "Copyright 2020, Sandro Klippel"
@@ -259,7 +281,7 @@ class Search(object):
     search_endpoint = '/stac/search'
 
     # http
-    timeout = 12
+    # timeout = 12
 
     def __init__(self, **default_search_keys):
         """
@@ -411,20 +433,6 @@ class Search(object):
                 return Collections(res.json())
 
 
-    #     bbox list float Only features that have a geometry that intersects the bounding box are selected
-    #     datetime str Either a date-time or an interval, open or closed. Date and time expressions adhere to RFC 3339.
-    #     intersects GeoJSON
-    #     collections list str Collection IDs to include in the search for items.
-    #     ids list int Array of Item ids to return. All other filter parameters that further restrict the number of search results are ignored
-    #     limit int The maximum number of results to return
-    #     query dict Define which properties to query and the operations to apply
-    #         ('datetime', 'path', 'row', 'satellite', 'sensor', 'cloud_cover', 'sync_loss')
-    #     """
-    #        {"query":{"cloud_cover":{"lte":50}},
-    #         "bbox":[-52.37132302,-26.41049765,-50.64136522,-25.41363448],
-    #         "time":"2020-01-01T00:00:00/2020-09-30T23:59:00",
-    #         "collections": ['CBERS4A_WPM_L4_DN'],
-    #         "limit":100}
 
 def parseargs():
     """parse command line arguments
@@ -498,9 +506,14 @@ def cli():
         result = search_inpe_stac()
         # actions choice
         if 'download' in params:
+            outdir = params.get('outdir', gettempdir())
             for item in result:
                 for asset in params.get('assets', item.assets):
-                    item.download(asset, params['download'], session=search_inpe_stac.session)
+                    item.download(asset, params['download'], outdir=outdir, session=search_inpe_stac.session)
+            if 'jsonfile' in params:
+                outfile = join(outdir, params['jsonfile'])
+                with open(outfile, 'w') as json_file:
+                    json.dump(result.featurescollection, json_file)
         elif params['total']:
             print(result.matched)
         else:
