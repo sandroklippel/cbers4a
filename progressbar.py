@@ -28,59 +28,39 @@
    and ...
 """
 
-from sys import stderr
-
-
-class ContextManagerPrintBytes(object):
-    """
-    docstring
-    """
-
-    def __init__(
-        self,
-        total=None,
-        unit=None,
-        unit_scale=None,
-        desc=None,
-        initial=None,
-        ascii=None,
-    ):
-        assert unit == "B"
-        self._total = total
-        self._desc = desc
-        self._initial = initial
-
-    def __enter__(self):
-        print(
-            "{description}, total size {total} bytes".format(
-                description=self._desc, total=self._total
-            ),
-            file=stderr,
-        )
-        return PrintBytes(self._initial)
-
-    def __exit__(self, exception_type, exception_val, trace):
-        print(file=stderr)
-        return True
-
+import sys 
 
 class PrintBytes(object):
     """
     docstring
     """
 
-    def __init__(self, initial):
-        self._totalbytes = initial or 0
+    def __init__(self, **kwargs):
+        self._total = kwargs.get('total', 0)
+        self._desc = kwargs.get('desc', 'Filename.ext')
+        self._downloaded = kwargs.get('initial', 0)
+
+    def __enter__(self):
+        print(
+            "{description}, total size {total} bytes".format(
+                description=self._desc, total=self._total
+            ),
+            file=sys.stderr,
+        )
+        return self
+
+    def __exit__(self, exception_type, exception_val, trace):
+        print(file=sys.stderr)
+        return True
 
     def update(self, b):
         """
         docstring
         """
-        self._totalbytes = self._totalbytes + b
+        self._downloaded = self._downloaded + b
         print(
-            "Downloading: {x} bytes".format(x=self._totalbytes), end="\r", file=stderr
+            "Downloading: {x} bytes".format(x=self._downloaded), end="\r", file=sys.stderr
         )
-
 
 if __name__ == "__main__":
     pass

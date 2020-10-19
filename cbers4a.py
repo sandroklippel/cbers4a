@@ -38,10 +38,9 @@ from tempfile import gettempdir
 import requests
 
 try:
-    from tqdm import tqdm
+    from tqdm import tqdm as progressbar
 except ImportError:
-    from progressbar import ContextManagerPrintBytes as tqdm # mimics tdqm
-    # from .cbers4a import ContextManagerPrintBytes as tqdm
+    from progressbar import PrintBytes as progressbar
 
 __author__ = "Sandro Klippel"
 __copyright__ = "Copyright 2020, Sandro Klippel"
@@ -50,6 +49,8 @@ __version__ = "0.1.0"
 __maintainer__ = "Sandro Klippel"
 __email__ = "sandroklippel at gmail.com"
 __status__ = "Prototype"
+
+
 
 class Item(object):
     """Class to parse items from INPE STAC Catalog"""
@@ -152,17 +153,16 @@ class Item(object):
         url = self._feature['assets'][asset]['href']
         filename = url.split("/")[-1]
         outfile = join(outdir, filename)
-
         r = session.get(url, params={'key': credential}, stream=True, allow_redirects=True)
         if r.status_code == 200:
             total_size = int(r.headers.get('content-length'))
             initial_pos = 0
             with open(outfile,'wb') as f:
-                with tqdm(total=total_size, unit='B', unit_scale=True, desc=filename, initial=initial_pos, ascii=True) as pbar:
+                with progressbar(total=total_size, unit='B', unit_scale=True, desc=filename, initial=initial_pos, ascii=True) as pb:
                     for ch in r.iter_content(chunk_size=1024):
                         if ch:
                             f.write(ch)
-                            pbar.update(len(ch))
+                            pb.update(len(ch))
             return outfile
         else:
             return 'ERROR in ' + url + ' (' + r.reason + ')'
@@ -431,8 +431,6 @@ class Search(object):
         with requests.get(url=Search.base_url + Search.collection_endpoint) as res:
             if res.status_code == 200:
                 return Collections(res.json())
-
-
 
 def parseargs():
     """parse command line arguments
