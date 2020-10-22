@@ -505,6 +505,7 @@ def cli():
         # actions choice
         if 'download' in params:
             outdir = params.get('outdir', gettempdir())
+            print(f'Downloading file(s) in the "{outdir}" directory:')
             for item in result:
                 for asset in params.get('assets', item.assets):
                     item.download(asset, params['download'], outdir=outdir, session=search_inpe_stac.session)
