@@ -1,0 +1,2961 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   width="24"
+   height="23.000004"
+   version="1.0"
+   sodipodi:docname="cbers4a.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/sandro/programacao/py/cbers4a/cbers4a/cbers4a.png"
+   inkscape:export-xdpi="6.3549156"
+   inkscape:export-ydpi="6.3549156">
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5">
+    <linearGradient
+       id="linearGradient3287">
+      <stop
+         id="stop3289"
+         offset="0"
+         style="stop-color:#787878;stop-opacity:1;" />
+      <stop
+         style="stop-color:#b7b7b7;stop-opacity:1;"
+         offset="0.5"
+         id="stop3293" />
+      <stop
+         id="stop3291"
+         offset="1"
+         style="stop-color:#939393;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3267">
+      <stop
+         style="stop-color:#787878;stop-opacity:1;"
+         offset="0"
+         id="stop3269" />
+      <stop
+         style="stop-color:#909090;stop-opacity:1;"
+         offset="1"
+         id="stop3271" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3249">
+      <stop
+         style="stop-color:#c4bd1e;stop-opacity:1;"
+         offset="0"
+         id="stop3251" />
+      <stop
+         style="stop-color:#808000;stop-opacity:1;"
+         offset="1"
+         id="stop3253" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3233">
+      <stop
+         id="stop3241"
+         offset="0"
+         style="stop-color:#f3f1b1;stop-opacity:1;" />
+      <stop
+         style="stop-color:#dbd767;stop-opacity:1;"
+         offset="0.58333331"
+         id="stop3245" />
+      <stop
+         style="stop-color:#c4bd1e;stop-opacity:1;"
+         offset="1"
+         id="stop3237" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 171.50501 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 171.50501 : 1"
+       inkscape:persp3d-origin="372.04724 : -3.8886926 : 1"
+       id="perspective9" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3233"
+       id="radialGradient3243"
+       cx="371.5372"
+       cy="294.3031"
+       fx="371.5372"
+       fy="294.3031"
+       r="100.5"
+       gradientTransform="matrix(1,0,0,0.7985006,0,68.541235)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3233"
+       id="radialGradient3357"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.7985006,0,68.541235)"
+       cx="371.5372"
+       cy="294.3031"
+       fx="371.5372"
+       fy="294.3031"
+       r="100.5" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3233"
+       id="radialGradient3439"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.7985006,0,68.541235)"
+       cx="371.5372"
+       cy="294.3031"
+       fx="371.5372"
+       fy="294.3031"
+       r="100.5" />
+    <linearGradient
+       id="linearGradient6339">
+      <stop
+         id="stop6341"
+         offset="0"
+         style="stop-color:#6e9f4b;stop-opacity:1;" />
+      <stop
+         style="stop-color:#425f2d;stop-opacity:1;"
+         offset="0.5"
+         id="stop12671" />
+      <stop
+         style="stop-color:#2a3d1d;stop-opacity:1;"
+         offset="1"
+         id="stop6347" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient13206">
+      <stop
+         style="stop-color:#f2c41f;stop-opacity:1;"
+         offset="0"
+         id="stop13208" />
+      <stop
+         style="stop-color:#b9380a;stop-opacity:1;"
+         offset="1"
+         id="stop2186" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5142">
+      <stop
+         id="stop5144"
+         offset="0"
+         style="stop-color:#bfd1eb;stop-opacity:1;" />
+      <stop
+         style="stop-color:#315c9b;stop-opacity:1;"
+         offset="0.61538464"
+         id="stop5150" />
+      <stop
+         id="stop5146"
+         offset="1"
+         style="stop-color:#11233a;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4437"
+       inkscape:collect="always">
+      <stop
+         id="stop4439"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:0.85624999" />
+      <stop
+         id="stop4441"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective58"
+       inkscape:persp3d-origin="79.999985 : -301.34205 : 1"
+       inkscape:vp_z="159.99997 : -274.67504 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : -274.67504 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <rect
+       height="50"
+       width="1235"
+       id="stripe"
+       x="0"
+       y="0"
+       style="fill:#b22234" />
+    <g
+       id="u">
+      <use
+         id="use3800"
+         y="-0.21600001"
+         xlink:href="#x4"
+         x="0"
+         width="1006"
+         height="806" />
+      <use
+         id="use3802"
+         xlink:href="#x4"
+         x="0"
+         y="0"
+         width="1006"
+         height="806" />
+      <use
+         id="use3804"
+         y="0.21600001"
+         xlink:href="#s6"
+         x="0"
+         width="1006"
+         height="806" />
+    </g>
+    <g
+       id="x4">
+      <use
+         id="use3791"
+         xlink:href="#s6"
+         x="0"
+         y="0"
+         width="1006"
+         height="806" />
+      <use
+         id="use3793"
+         y="0.054000001"
+         xlink:href="#s5"
+         x="0"
+         width="1006"
+         height="806" />
+      <use
+         id="use3795"
+         y="0.108"
+         xlink:href="#s6"
+         x="0"
+         width="1006"
+         height="806" />
+      <use
+         id="use3797"
+         y="0.162"
+         xlink:href="#s5"
+         x="0"
+         width="1006"
+         height="806" />
+    </g>
+    <g
+       id="s6">
+      <use
+         id="use3786"
+         x="-0.063000001"
+         xlink:href="#s5"
+         y="0"
+         width="1006"
+         height="806" />
+      <use
+         id="use3788"
+         x="0.315"
+         xlink:href="#star"
+         y="0"
+         width="1006"
+         height="806" />
+    </g>
+    <g
+       id="s5">
+      <use
+         id="use3775"
+         x="-0.252"
+         xlink:href="#star"
+         y="0"
+         width="1006"
+         height="806" />
+      <use
+         id="use3777"
+         x="-0.126"
+         xlink:href="#star"
+         y="0"
+         width="1006"
+         height="806" />
+      <use
+         id="use3779"
+         xlink:href="#star"
+         x="0"
+         y="0"
+         width="1006"
+         height="806" />
+      <use
+         id="use3781"
+         x="0.126"
+         xlink:href="#star"
+         y="0"
+         width="1006"
+         height="806" />
+      <use
+         id="use3783"
+         x="0.252"
+         xlink:href="#star"
+         y="0"
+         width="1006"
+         height="806" />
+    </g>
+    <g
+       id="star">
+      <use
+         id="use3764"
+         transform="rotate(-144)"
+         xlink:href="#pt"
+         x="0"
+         y="0"
+         width="1006"
+         height="806" />
+      <use
+         id="use3766"
+         transform="rotate(-71.999999)"
+         xlink:href="#pt"
+         x="0"
+         y="0"
+         width="1006"
+         height="806" />
+      <use
+         id="use3768"
+         xlink:href="#pt"
+         x="0"
+         y="0"
+         width="1006"
+         height="806" />
+      <use
+         id="use3770"
+         transform="rotate(71.999999)"
+         xlink:href="#pt"
+         x="0"
+         y="0"
+         width="1006"
+         height="806" />
+      <use
+         id="use3772"
+         transform="rotate(144)"
+         xlink:href="#pt"
+         x="0"
+         y="0"
+         width="1006"
+         height="806" />
+    </g>
+    <polygon
+       transform="scale(0.0616)"
+       points="-0.16245985,0 0,-0.5 0.16245985,0 "
+       id="pt"
+       style="fill:#ffffff" />
+    <inkscape:perspective
+       id="perspective3830"
+       inkscape:persp3d-origin="617.5 : -138.00941 : 1"
+       inkscape:vp_z="1235 : -29.676083 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : -29.676083 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6339"
+       id="radialGradient4028"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.454579,-0.103027,0.118439,1.802414,-328.325,-918.4274)"
+       cx="406.20645"
+       cy="1189.2123"
+       fx="406.20645"
+       fy="1189.2123"
+       r="88.938736" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient13206"
+       id="radialGradient4030"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.150346,0,0,1.150346,-16.1173,-74.46758)"
+       cx="107.20115"
+       cy="495.30679"
+       fx="107.20115"
+       fy="495.30679"
+       r="405.35715" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5142"
+       id="radialGradient4032"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.971416,0.433793,-0.445445,3.041429,176.2001,-314.492)"
+       cx="209.15753"
+       cy="407.22339"
+       fx="209.15753"
+       fy="407.22339"
+       r="55.703125" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4437"
+       id="radialGradient4034"
+       gradientUnits="userSpaceOnUse"
+       cx="136.1499"
+       cy="504.90085"
+       fx="136.1499"
+       fy="504.90085"
+       r="406.37308" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3233"
+       id="radialGradient4036"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.7985006,0,68.541235)"
+       cx="371.5372"
+       cy="294.3031"
+       fx="371.5372"
+       fy="294.3031"
+       r="100.5" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3233"
+       id="radialGradient4038"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.7985006,0,68.541235)"
+       cx="371.5372"
+       cy="294.3031"
+       fx="371.5372"
+       fy="294.3031"
+       r="100.5" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3233"
+       id="radialGradient4040"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.7985006,0,68.541235)"
+       cx="371.5372"
+       cy="294.3031"
+       fx="371.5372"
+       fy="294.3031"
+       r="100.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3249"
+       id="linearGradient4042"
+       gradientUnits="userSpaceOnUse"
+       x1="388.39679"
+       y1="383.40533"
+       x2="436.40436"
+       y2="456.40533" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3267"
+       id="radialGradient4046"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.6565442,0,-318.97939)"
+       cx="477.2626"
+       cy="485.84604"
+       fx="477.2626"
+       fy="485.84604"
+       r="32.039558" />
+    <inkscape:perspective
+       id="perspective2684"
+       inkscape:persp3d-origin="900 : 45.323917 : 1"
+       inkscape:vp_z="1800 : 245.32392 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 245.32392 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3287"
+       id="linearGradient2694"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-11.369226,6.6010311)"
+       x1="499.49463"
+       y1="445.3165"
+       x2="504.90192"
+       y2="443.75977" />
+    <use
+       transform="scale(10.5)"
+       xlink:href="#star-4"
+       id="star5"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       transform="scale(15)"
+       xlink:href="#star-4"
+       id="star4"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       transform="scale(21)"
+       xlink:href="#star-4"
+       id="star3"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       transform="scale(26.25)"
+       xlink:href="#star-4"
+       id="star2"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       transform="scale(31.5)"
+       xlink:href="#star-4"
+       id="star1"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <g
+       fill="#ffffff"
+       id="star-4">
+      <g
+         id="c">
+        <path
+           d="M 0,-1 V 0 H 0.5"
+           transform="rotate(18,0,-1)"
+           id="t" />
+        <use
+           id="use4383"
+           transform="scale(-1,1)"
+           xlink:href="#t"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+      <use
+         id="use4385"
+         transform="rotate(72)"
+         xlink:href="#c"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use4387"
+         transform="rotate(-72)"
+         xlink:href="#c"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use4389"
+         transform="rotate(144)"
+         xlink:href="#c"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use4391"
+         transform="rotate(-144)"
+         xlink:href="#c"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </g>
+    <path
+       d="m -15.75,-22 c 0,7 6.75,10.5 16.75,10.5 10,0 14.74,-3.25 14.75,-7.75 C 15.75,-33.5 -31,-24.5 -30.75,-49.5 -30.5,-71 -6,-70 3,-70 c 9,0 26,4 25.75,21.25 H 13.5 c 0,-7.5 -7,-10.25 -15,-10.25 -7.75,0 -13.25,1.25 -13.25,8.5 -0.25,11.75 46.25,4 46.25,28.75 C 31.5,-3.5 13.5,0 0,0 -11.5,0 -31.55,-4.5 -31.5,-22 Z"
+       id="S" />
+    <g
+       id="R">
+      <use
+         id="use4375"
+         xlink:href="#P"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <path
+         id="path4377"
+         d="m 28,0 c 0,-10 0,-32 -15,-32 H -6 c 22,0 22,22 22,32" />
+    </g>
+    <path
+       d="m -31.5,0 h 13 v -26 h 28 a 22,22 0 0 0 0,-44 h -40 z m 13,-39 h 27 a 9,9 0 0 0 0,-18 h -27 z"
+       fill-rule="evenodd"
+       id="P" />
+    <path
+       d="M 0,0 A 31.5,35 0 0 0 0,-70 31.5,35 0 0 0 0,0 m 0,-13 a 18.5,22 0 0 0 0,-44 18.5,22 0 0 0 0,44"
+       fill-rule="evenodd"
+       id="O" />
+    <path
+       d="m -31.5,0 h 12 v -48 l 14,48 h 11 l 14,-48 V 0 h 12 V -70 H 14 L 0,-22 -14,-70 h -17.5 z"
+       id="M" />
+    <g
+       id="G">
+      <clipPath
+         id="gcut">
+        <path
+           id="path4363"
+           d="m -31.5,0 v -70 h 63 V 0 Z M 0,-47 v 12 h 31.5 v -12 z" />
+      </clipPath>
+      <use
+         id="use4365"
+         clip-path="url(#gcut)"
+         xlink:href="#O"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <rect
+         id="rect4367"
+         width="26.5"
+         height="10"
+         x="5"
+         y="-35" />
+      <rect
+         id="rect4369"
+         width="10"
+         height="35"
+         x="21.5"
+         y="-35" />
+    </g>
+    <path
+       d="m -26.25,0 h 52.5 v -12 h -40.5 v -16 h 33 v -12 h -33 V -51 H 25 v -12 h -51.25 z"
+       id="e" />
+    <path
+       d="M 0,0 H 63 V -13 H 12 V -31 H 52 V -43 H 12 V -57 H 60 V -70 H 0 Z"
+       transform="translate(-31.5)"
+       id="E" />
+    <path
+       d="m -31.5,0 h 33 a 30,30 0 0 0 30,-30 v -10 a 30,30 0 0 0 -30,-30 h -33 z m 13,-13 h 19 a 19,19 0 0 0 19,-19 v -6 a 19,19 0 0 0 -19,-19 h -19 z"
+       fill-rule="evenodd"
+       id="D" />
+    <clipPath
+       id="gcut-4">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3303"
+         d="m -31.5,0 v -70 h 63 V 0 Z M 0,-47 v 12 h 31.5 v -12 z" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3287"
+       id="linearGradient267"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="rotate(-22.448398,533.41149,545.80125)"
+       x1="499.49463"
+       y1="445.3165"
+       x2="504.90192"
+       y2="443.75977" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="718"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="21.16664"
+     inkscape:cx="12.000001"
+     inkscape:cy="11.500001"
+     inkscape:window-x="86"
+     inkscape:window-y="0"
+     inkscape:current-layer="g4703"
+     inkscape:window-maximized="0"
+     inkscape:document-rotation="0" />
+  <g
+     id="g3974"
+     transform="translate(-408.62859,-242.79531)">
+    <g
+       inkscape:label="Calque 1"
+       id="layer1"
+       transform="matrix(0.12247236,0,0,0.12209249,411.02115,170.47043)">
+      <g
+         style="opacity:1"
+         id="g43078"
+         transform="matrix(1.717828,0.371908,-0.326113,1.506117,-1714.337,-171.6708)">
+        <g
+           id="g3225">
+          <path
+             id="path5452"
+             style="display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient4028);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none"
+             transform="matrix(0.479653,0.00386615,-0.00372447,0.461999,899.3227,-259.237)"
+             d="m 533.63243,1211.5447 a 88.938736,110.2067 0 0 1 -88.93873,110.2067 88.938736,110.2067 0 0 1 -88.93874,-110.2067 88.938736,110.2067 0 0 1 88.93874,-110.2067 88.938736,110.2067 0 0 1 88.93873,110.2067 z" />
+          <g
+             style="display:inline;stroke:none;stroke-width:2.32346;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             inkscape:label="skins"
+             id="g22959"
+             transform="matrix(0.278956,0,0,0.316467,929.849,95.75408)">
+            <g
+               transform="matrix(0.691474,0,0,0.691474,194.6521,226.2037)"
+               id="g3528"
+               style="display:inline;stroke:none;stroke-width:3.36016;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+              <path
+                 id="path1307"
+                 style="display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient4030);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5.64375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none"
+                 transform="matrix(0.595377,0,0,0.595377,484.3515,236.1627)"
+                 d="M 654.28571,648.07648 A 392.85715,392.85715 0 0 1 261.42856,1040.9336 392.85715,392.85715 0 0 1 -131.42859,648.07648 392.85715,392.85715 0 0 1 261.42856,255.21933 392.85715,392.85715 0 0 1 654.28571,648.07648 Z" />
+              <g
+                 style="display:inline;stroke:none;stroke-width:2.03562;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                 inkscape:label="titre 3"
+                 id="layer7"
+                 transform="matrix(1.649352,0,0,1.652007,-456.9646,-1157.083)">
+                <path
+                   sodipodi:nodetypes="cccccccccccccccccccccccccccccccc"
+                   id="path2495"
+                   d="m 685.79834,936.8631 c -32.76808,-4.93347 -67.11167,2.38183 -95.15749,19.98847 6.70091,4.75188 33.47985,14.65682 20.05068,21.2461 -7.40299,13.03187 -31.39864,28.25703 -46.28999,18.68545 -14.85645,5.58808 -34.57523,24.60068 -29.29017,39.87828 20.02708,6.571 22.77241,18.9918 18.78287,21.7385 -22.06633,12.7917 -27.57786,49.4131 -21.04149,68.6413 21.70411,60.5474 88.29596,100.1795 151.8732,90.1663 50.25358,-6.5873 95.21077,-42.4725 112.79522,-90.0049 4.08443,-34.8935 -25.0242,31.0706 -24.50763,-2.9505 1.65443,-20.6432 -19.40389,-11.2893 -29.66898,-20.7225 -13.89675,5.8998 -36.74148,-23.8871 -37.4247,4.5024 4.81353,13.7973 42.44306,-9.0631 21.44813,14.0941 -13.70214,16.3501 -48.5274,51.7702 -49.13854,73.4666 -5.54522,30.7089 -32.51552,0.3119 -41.46381,-11.9629 -3.37758,-21.7716 8.39814,-56.4164 -8.88553,-70.104 -20.69691,-4.9459 -38.25594,-10.2474 -41.78365,-35.1486 -1.60466,-17.6363 13.26507,-40.5432 31.90691,-40.9177 29.4066,-11.3851 31.70139,26.0793 56.13443,31.4975 9.18613,-6.5023 30.53215,-5.0874 34.00483,-13.7012 -15.55946,-5.9631 23.09448,-9.56 2.29501,-19.906 -12.40841,-0.9205 -22.36882,8.8259 -17.76835,19.5292 -24.57911,0.932 -17.62879,-38.7948 -42.66093,-30.7095 -4.42621,19.5859 -38.18253,-0.7277 -13.0712,-0.014 9.07314,-2.0336 -10.84194,-16.8977 0.66461,-12.6749 5.89895,0.8127 26.98919,-2.1935 22.57593,-7.8524 12.27088,-4.67428 16.91595,20.0143 30.90871,5.2966 10.25581,-11.41407 -0.24916,-15.87426 -11.22076,-11.20616 -5.68993,-9.5673 27.49686,-24.63229 40.24223,-20.94712 5.86251,10.21162 20.56162,13.77653 20.45157,-1.48464 9.22666,-11.69675 39.61538,16.32179 20.55054,-2.47475 -20.71997,-19.22379 -47.32709,-31.94762 -75.31165,-35.94933 z"
+                   style="display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient4032);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.03562;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none" />
+              </g>
+              <path
+                 id="path2653"
+                 style="display:inline;overflow:visible;visibility:visible;opacity:0.760252;fill:url(#radialGradient4034);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5.64375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none"
+                 transform="matrix(0.595377,0,0,0.595377,484.3515,236.1627)"
+                 d="M 654.28571,648.07648 A 392.85715,392.85715 0 0 1 261.42856,1040.9336 392.85715,392.85715 0 0 1 -131.42859,648.07648 392.85715,392.85715 0 0 1 261.42856,255.21933 392.85715,392.85715 0 0 1 654.28571,648.07648 Z" />
+            </g>
+          </g>
+          <g
+             id="g13579"
+             transform="matrix(0.461631,0.00365849,-0.0037212,0.453853,776.2595,-251.8312)"
+             style="display:inline;opacity:0.418338;fill:none;fill-opacity:1;stroke:#686868;stroke-width:0.779205;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+            <path
+               sodipodi:nodetypes="cc"
+               id="path13581"
+               d="m 729.28579,1110.8182 0.0514,219.6508"
+               style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#686868;stroke-width:0.779205;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               sodipodi:nodetypes="cc"
+               id="path13583"
+               d="m 702.13652,1109.7713 c -21.87876,69.7695 -19.62303,141.5587 0.13282,215.3635"
+               style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#686868;stroke-width:0.779205;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               sodipodi:nodetypes="cc"
+               id="path13585"
+               d="m 756.30133,1109.3909 c 21.96052,70.0455 19.79619,142.0848 0.1394,216.1226"
+               style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#686868;stroke-width:0.779205;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               sodipodi:nodetypes="cc"
+               id="path13587"
+               d="m 672.38158,1127.6022 c -37.60127,59.2232 -34.64352,118.6117 0.73925,181.2359"
+               style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#686868;stroke-width:0.779205;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               sodipodi:nodetypes="cc"
+               id="path13589"
+               d="m 786.223,1127.9786 c 37.58901,59.7224 34.59363,117.3242 -0.76919,180.4709"
+               style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#686868;stroke-width:0.779205;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <g
+               transform="matrix(0,1.124456,-0.877527,0,1797.633,397.4031)"
+               id="g13591"
+               style="fill:none;fill-opacity:1;stroke:#686868;stroke-width:0.784423;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+              <path
+                 style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#686868;stroke-width:0.784423;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                 d="m 729.2615,1108.2592 0.0486,218.3869"
+                 id="path13593" />
+              <path
+                 style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#686868;stroke-width:0.784423;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                 d="m 702.19152,1112.6889 c -21.96238,67.8818 -19.7236,137.7256 0.0634,209.5281"
+                 id="path13595"
+                 sodipodi:nodetypes="cc" />
+              <path
+                 style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#686868;stroke-width:0.784423;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                 d="m 754.23777,1110.5303 c 22.06458,64.8653 20.26754,145.7212 0.42882,214.3115"
+                 id="path13597"
+                 sodipodi:nodetypes="cc" />
+              <path
+                 style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#686868;stroke-width:0.784423;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                 d="m 673.12083,1126.0672 c -37.60127,59.2232 -35.38277,120.1467 0,182.7709"
+                 id="path13599"
+                 sodipodi:nodetypes="cc" />
+              <path
+                 style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#686868;stroke-width:0.784423;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                 d="m 785.45069,1126.0672 c 37.60127,59.2232 35.38277,120.1467 0,182.7709"
+                 id="path13601"
+                 sodipodi:nodetypes="cc" />
+            </g>
+          </g>
+          <path
+             id="path50675"
+             d="m 1107.6009,251.92564 c -0.099,0 -0.1992,0.008 -0.2986,0.009 -0.3304,0.002 -0.6634,0.007 -0.9921,0.0176 -24.3096,0.77641 -43.8308,23.46819 -43.8308,51.32684 0,23.77336 14.2209,43.78448 33.4965,49.6265 0.1792,0.0543 0.3555,0.11553 0.5356,0.1674 5.615,1.68792 11.5129,2.13737 17.3321,1.09242 3.9047,-0.58355 7.7076,-1.80995 11.3089,-3.56803 0.085,-0.0408 0.1703,-0.082 0.2546,-0.12334 0.065,-0.032 0.1289,-0.0645 0.1932,-0.0969 0.3676,-0.18246 0.7351,-0.37065 1.0975,-0.56386 0.027,-0.0142 0.053,-0.0298 0.079,-0.044 0.015,-0.008 0.029,-0.0183 0.044,-0.0264 15.2992,-8.22069 25.8929,-25.93948 25.8929,-46.46372 0,-14.93567 -5.6153,-28.38139 -14.5664,-37.76831 -0.2066,-0.21671 -0.4132,-0.43078 -0.6234,-0.64312 -0.1354,-0.13775 -0.267,-0.27827 -0.4039,-0.41407 -0.076,-0.0746 -0.1522,-0.14622 -0.2282,-0.22025 -0.1969,-0.19262 -0.3973,-0.38404 -0.5971,-0.57264 -0.017,-0.0156 -0.036,-0.0285 -0.053,-0.0441 -0.052,-0.0485 -0.1063,-0.0927 -0.158,-0.14097 -0.4872,-0.45433 -0.9803,-0.90016 -1.4839,-1.33029 -0.01,-0.005 -0.011,-0.0122 -0.018,-0.0176 -0.1118,-0.0953 -0.2209,-0.18781 -0.3336,-0.28192 -0.1769,-0.14805 -0.3567,-0.29544 -0.5356,-0.44048 -0.05,-0.0406 -0.099,-0.083 -0.1493,-0.12337 -0.2459,-0.19773 -0.4968,-0.38941 -0.7463,-0.58145 -0.2165,-0.16655 -0.4305,-0.331 -0.6497,-0.49336 -0.085,-0.0632 -0.169,-0.12246 -0.2546,-0.185 -0.309,-0.22566 -0.617,-0.44382 -0.9307,-0.66074 -0.3074,-0.21253 -0.619,-0.42146 -0.9307,-0.62551 -0.012,-0.008 -0.023,-0.0185 -0.035,-0.0264 -0.3035,-0.19824 -0.6144,-0.39131 -0.9219,-0.58146 -0.3205,-0.19819 -0.6412,-0.39217 -0.9658,-0.58145 -0.3228,-0.1882 -0.648,-0.37577 -0.9746,-0.55502 -0.041,-0.0227 -0.082,-0.0479 -0.1229,-0.0705 -0.2882,-0.1569 -0.5782,-0.30821 -0.8693,-0.45811 -0.3206,-0.16515 -0.6418,-0.31921 -0.9658,-0.47575 -0.015,-0.007 -0.029,-0.0191 -0.044,-0.0264 -0.1427,-0.0687 -0.2868,-0.13551 -0.4302,-0.20262 -0.1957,-0.0916 -0.3915,-0.18469 -0.5883,-0.27312 -0.065,-0.0291 -0.1282,-0.0593 -0.1932,-0.0881 -0.2761,-0.12238 -0.5559,-0.23626 -0.8341,-0.35241 -0.3185,-0.13298 -0.6359,-0.26292 -0.957,-0.38761 -0.029,-0.0115 -0.058,-0.0239 -0.088,-0.0353 -0.1661,-0.064 -0.3336,-0.12315 -0.5005,-0.185 -0.185,-0.0686 -0.3674,-0.13683 -0.5531,-0.20263 -0.082,-0.0291 -0.1635,-0.0595 -0.2459,-0.0881 -0.2712,-0.0941 -0.5438,-0.1849 -0.8166,-0.2731 -0.2673,-0.0865 -0.5384,-0.1745 -0.8077,-0.2555 -0.091,-0.0273 -0.1813,-0.0527 -0.2722,-0.0793 -0.1815,-0.0532 -0.362,-0.0991 -0.5444,-0.14977 -0.1794,-0.0497 -0.3556,-0.10261 -0.5356,-0.14978 -0.093,-0.0245 -0.1876,-0.0466 -0.281,-0.0705 -0.2713,-0.069 -0.544,-0.13953 -0.8165,-0.20264 0,-6.4e-4 -0.01,6.6e-4 -0.01,0 -0.067,-0.0156 -0.1346,-0.0289 -0.2019,-0.044 -0.2837,-0.064 -0.567,-0.12741 -0.8517,-0.18501 -0.015,-0.003 -0.029,-0.006 -0.044,-0.009 -0.1865,-0.0379 -0.3747,-0.0704 -0.5619,-0.10572 -0.2775,-0.0523 -0.5551,-0.10322 -0.8342,-0.14977 -0.2819,-0.0484 -0.5603,-0.0902 -0.8429,-0.13215 -0.044,-0.006 -0.088,-0.0114 -0.1317,-0.0176 -0.3324,-0.0481 -0.6677,-0.093 -1.0009,-0.13215 -0.3801,-0.0447 -0.7606,-0.0814 -1.1415,-0.11453 -0.268,-0.0232 -0.5384,-0.0438 -0.8077,-0.0617 -0.2914,-0.0193 -0.5852,-0.031 -0.878,-0.044 -0.038,-0.002 -0.076,-0.007 -0.1142,-0.009 -0.1703,-0.007 -0.3389,-0.0131 -0.5092,-0.0176 -0.1934,-0.006 -0.3855,-0.006 -0.5795,-0.009 -0.194,-0.003 -0.385,-0.009 -0.5795,-0.009 z"
+             style="display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.844327;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g2687"
+       transform="matrix(1.6600753,0,0,1.6549263,417.68127,255.85914)">
+      <path
+         id="rect2736"
+         style="fill:none;stroke:#000000;stroke-width:0.008;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 9,6 V 0 H 0 v 6 z"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       transform="matrix(0.02978381,0,0,0.02969144,404.63044,239.58945)"
+       id="g3421">
+      <g
+         id="use3389"
+         transform="matrix(1.1901829,0,0,1.1901829,291.79914,-277.05172)">
+        <path
+           id="use247"
+           d="M 202.9568,444.93107 306.71655,385.02535"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           id="path249"
+           d="M 202.9568,508.93107 306.71655,449.02535"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         id="g3385">
+        <path
+           id="use3351"
+           d="M 202.9568,444.93107 306.71655,385.02535"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           id="path3349"
+           d="M 202.9568,508.93107 306.71655,449.02535"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         id="use2457"
+         transform="matrix(0.8300409,0,0.22522014,0.8300409,-360.62859,262.17803)"
+         style="fill:#000080">
+        <path
+           sodipodi:nodetypes="ccccc"
+           d="m 608.87041,304.61811 26,-102 -108.41315,56.32215 -26,100 z"
+           style="fill:#000080;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path257" />
+        <path
+           id="path259"
+           style="fill:#000080;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 610.87041,303.69348 26,-102 119.58685,-62.75322 -24,106 z"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           sodipodi:nodetypes="ccccc"
+           d="m 860.87041,185.69348 21.87182,-110.038558 -124.05381,62.591868 -24,106 z"
+           style="fill:#000080;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path261" />
+      </g>
+      <g
+         id="g3229"
+         style="fill:url(#radialGradient4040);fill-opacity:1">
+        <path
+           sodipodi:nodetypes="ccccc"
+           d="m 388.72748,383.90533 124,36 V 297.10018 l -124,-36.69347 z"
+           style="fill:url(#radialGradient4036);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path2395" />
+        <path
+           id="path2406"
+           style="fill:url(#radialGradient4038);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 388.72748,383.90533 -76,36 V 301.10018 l 76,-40.69347 z"
+           sodipodi:nodetypes="ccccc" />
+      </g>
+      <path
+         id="path2408"
+         style="fill:url(#linearGradient4042);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 436.72748,455.90533 -124,-36 76,-36 124,36 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:url(#linearGradient267);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 450.26952,447.81849 c 0,0 -1.27935,-1.64481 0.26768,-3.65718 1.37808,-1.79261 3.61463,-0.26492 3.61463,-0.26492 l 31.17091,40.69857 -4.34025,3.32418 z"
+         id="use3301"
+         sodipodi:nodetypes="czcccc" />
+      <g
+         id="g2444"
+         transform="matrix(1,0,0.2713362,1,-148.43357,33.226103)"
+         style="fill:#000080">
+        <path
+           sodipodi:nodetypes="ccccc"
+           d="m 608.87041,304.61811 26,-102 -108.41315,56.32215 -26,100 z"
+           style="fill:#000080;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path2417" />
+        <path
+           id="path2424"
+           style="fill:#000080;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 610.87041,303.69348 26,-102 119.58685,-62.75322 -24,106 z"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           sodipodi:nodetypes="ccccc"
+           d="m 860.87041,185.69348 21.87182,-110.038558 -124.05381,62.591868 -24,106 z"
+           style="fill:#000080;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path2428" />
+      </g>
+      <path
+         style="fill:url(#linearGradient2694);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 482.61531,430.09642 c 0,0 -0.55433,-2.0087 1.6439,-3.27784 1.95816,-1.13055 3.44188,1.1354 3.44188,1.1354 l 13.2681,49.51724 -5.2807,1.41496 z"
+         id="path3277"
+         sodipodi:nodetypes="czcccc" />
+      <path
+         id="path3263"
+         style="fill:url(#radialGradient4046);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.279487;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.97;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(1.1521739,-0.207765,0.3657757,0.9340417,-223.32147,168.7845)"
+         d="m 513.63328,485.84604 a 31.899817,52.935204 0 0 1 -31.89982,52.9352 31.899817,52.935204 0 0 1 -31.89982,-52.9352 31.899817,52.935204 0 0 1 31.89982,-52.9352 31.899817,52.935204 0 0 1 31.89982,52.9352 z" />
+    </g>
+    <g
+       id="g4703"
+       transform="matrix(0.30219704,0,0,0.30219704,562.07473,282.96172)">
+      <g
+         id="g4987"
+         transform="matrix(0.06640301,0,0,0.06619705,-436.97878,-88.580511)">
+        <path
+           id="rect46"
+           style="fill:#009b3a"
+           d="M -614.61523,-16.684744 H 129.36548 V 479.34519 h -743.98071 z" />
+        <g
+           transform="translate(2.7420621)"
+           id="g4893">
+          <g
+             transform="matrix(0.17142857,0,0,0.17142857,-245.36694,231.33023)"
+             id="g4027">
+            <path
+               id="path3340"
+               d="M -1743,0 0,1113 1743,0 0,-1113 Z"
+               inkscape:connector-curvature="0"
+               style="fill:#fedf00" />
+            <path
+               id="rect3338"
+               style="fill:#009b3a"
+               d="m -0.5,-0.5 h 1 v 1 h -1 z" />
+            <path
+               id="circle3342"
+               style="fill:#002776"
+               d="M 735,0 A 735,735 0 0 1 0,735 735,735 0 0 1 -735,0 735,735 0 0 1 0,-735 735,735 0 0 1 735,0 Z" />
+            <path
+               id="path3347"
+               clip-path="url(#band)"
+               d="m -672.70628,-296.87375 c 83.66871,-11.96087 168.18674,-18.12548 252.70628,-18.12548 116.82797,0 233.65306,11.50625 348.236214,34.29821 114.583157,22.79196 226.918716,56.86852 334.853696,101.57658 168.24434,69.68898 325.33548,165.277843 464.81311,282.34838 -6.48452,48.78195 -18.47036,92.51375 -26.27749,116.01735 C 560.63852,93.018153 397.74698,-9.6966187 222.90815,-82.11712 121.32229,-124.19529 15.594702,-156.26735 -92.248269,-177.71861 -200.09124,-199.16987 -310.04426,-209.99927 -420,-209.99927 c -97.34086,0 -195.6765,8.4871 -291.55104,25.31729 3.43173,-16.16234 24.63035,-87.76424 38.84476,-112.19177 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff"
+               sodipodi:nodetypes="csssccssscc" />
+            <use
+               style="fill:#009b3a"
+               height="1"
+               width="1"
+               x="0"
+               y="-1697.5"
+               xlink:href="#O-8"
+               transform="rotate(-6.9999998,11807.144,4168.4699)"
+               id="use3351-6" />
+            <use
+               style="fill:#009b3a"
+               height="1"
+               width="1"
+               x="0"
+               y="-1697.5"
+               xlink:href="#R-4"
+               transform="rotate(-3.9999998,20837.647,6748.6137)"
+               id="use3353" />
+            <use
+               style="fill:#009b3a"
+               height="1"
+               width="1"
+               x="0"
+               y="-1697.5"
+               xlink:href="#D-7"
+               transform="rotate(-1.0000002,84012.648,24798.588)"
+               id="use3355" />
+            <use
+               style="fill:#009b3a"
+               height="1"
+               width="1"
+               x="0"
+               y="-1697.5"
+               xlink:href="#E-4"
+               transform="rotate(2.0000002,-42318.117,-11295.895)"
+               id="use3357" />
+            <use
+               style="fill:#009b3a"
+               height="1"
+               width="1"
+               x="0"
+               y="-1697.5"
+               xlink:href="#M-8"
+               transform="rotate(4.9999998,-17044.268,-4074.7912)"
+               id="use3359" />
+            <use
+               style="fill:#009b3a"
+               height="1"
+               width="1"
+               x="0"
+               y="-1697.5"
+               xlink:href="#e-0"
+               transform="rotate(9.7499998,-8827.585,-1727.1671)"
+               id="use3361" />
+            <use
+               style="fill:#009b3a"
+               height="1"
+               width="1"
+               x="0"
+               y="-1697.5"
+               xlink:href="#P-2"
+               transform="rotate(14.5,-5987.5722,-915.73487)"
+               id="use3363" />
+            <use
+               style="fill:#009b3a"
+               height="1"
+               width="1"
+               x="0"
+               y="-1697.5"
+               xlink:href="#R-4"
+               transform="rotate(17.5,-4985.3717,-629.3919)"
+               id="use3365" />
+            <use
+               style="fill:#009b3a"
+               height="1"
+               width="1"
+               x="0"
+               y="-1697.5"
+               xlink:href="#O-8"
+               transform="rotate(20.5,-4274.6033,-426.31522)"
+               id="use3367" />
+            <use
+               style="fill:#009b3a"
+               height="1"
+               width="1"
+               x="0"
+               y="-1697.5"
+               xlink:href="#G-9"
+               transform="rotate(23.5,-3743.6487,-274.61389)"
+               id="use3369" />
+            <use
+               style="fill:#009b3a"
+               height="1"
+               width="1"
+               x="0"
+               y="-1697.5"
+               xlink:href="#R-4"
+               transform="rotate(26.5,-3331.4334,-156.8381)"
+               id="use3371" />
+            <use
+               style="fill:#009b3a"
+               height="1"
+               width="1"
+               x="0"
+               y="-1697.5"
+               xlink:href="#E-4"
+               transform="rotate(29.5,-3001.7256,-62.635896)"
+               id="use3373" />
+            <use
+               style="fill:#009b3a"
+               height="1"
+               width="1"
+               x="0"
+               y="-1697.5"
+               xlink:href="#S-5"
+               transform="rotate(32.5,-2731.6708,14.522618)"
+               id="use3375" />
+            <use
+               style="fill:#009b3a"
+               height="1"
+               width="1"
+               x="0"
+               y="-1697.5"
+               xlink:href="#S-5"
+               transform="rotate(35.5,-2506.1393,78.960174)"
+               id="use3377" />
+            <use
+               style="fill:#009b3a"
+               height="1"
+               width="1"
+               x="0"
+               y="-1697.5"
+               xlink:href="#O-8"
+               transform="rotate(38.5,-2314.7168,133.65234)"
+               id="use3379" />
+            <use
+               xlink:href="#star1-1"
+               x="-600"
+               y="-132"
+               id="αCMi-2"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star1-1"
+               x="-535"
+               y="177"
+               id="αCMa-3"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star2-1"
+               x="-625"
+               y="243"
+               id="βCMa-2"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star4-2"
+               x="-463"
+               y="132"
+               id="γCMa-2"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star2-1"
+               x="-382"
+               y="250"
+               id="δCMa-1"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star3-5"
+               x="-404"
+               y="323"
+               id="εCMa-6"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star1-1"
+               x="228"
+               y="-228"
+               id="αVir-8"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star1-1"
+               x="515"
+               y="258"
+               id="αSco-5"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star3-5"
+               x="617"
+               y="265"
+               id="βSco-7"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star2-1"
+               x="545"
+               y="323"
+               id="εSco-6"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star2-1"
+               x="368"
+               y="477"
+               id="θSco-1"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star3-5"
+               x="367"
+               y="551"
+               id="ιSco-8"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star3-5"
+               x="441"
+               y="419"
+               id="κSco-9"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star2-1"
+               x="500"
+               y="382"
+               id="λSco-2"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star3-5"
+               x="365"
+               y="405"
+               id="μSco-7"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star2-1"
+               x="-280"
+               y="30"
+               id="αHya-9"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star3-5"
+               x="200"
+               y="-37"
+               id="γHya-5"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star1-1"
+               y="330"
+               id="αCru-4"
+               x="0"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star2-1"
+               x="85"
+               y="184"
+               id="βCru-3"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star2-1"
+               y="118"
+               id="γCru-1"
+               x="0"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star3-5"
+               x="-74"
+               y="184"
+               id="δCru-2"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star4-2"
+               x="-37"
+               y="235"
+               id="εCru-3"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star2-1"
+               x="220"
+               y="495"
+               id="αTrA-3"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star3-5"
+               x="283"
+               y="430"
+               id="βTrA-4"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star3-5"
+               x="162"
+               y="412"
+               id="γTrA-1"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star1-1"
+               x="-295"
+               y="390"
+               id="αCar-1"
+               width="1"
+               height="1" />
+            <use
+               xlink:href="#star5-7"
+               y="575"
+               id="σOct-3"
+               x="0"
+               width="1"
+               height="1" />
+          </g>
+          <g
+             id="g4657"
+             transform="matrix(0.17142857,0,0,0.17142857,-245.54169,231.45645)">
+            <path
+               id="rect4398"
+               style="fill:#009b3a"
+               d="m -0.5,-0.5 h 1 v 1 h -1 z" />
+            <g
+               style="fill:#009b3a"
+               transform="translate(-420,1470)"
+               id="g4409">
+              <path
+                 d="m -206.8732,-1684.8471 a 35,31.5 83 0 0 -8.53086,-69.4782 35,31.5 83 0 0 8.53086,69.4782 m -1.58431,-12.9031 a 22,18.5 83 0 0 -5.36225,-43.672 22,18.5 83 0 0 5.36225,43.672"
+                 fill-rule="evenodd"
+                 id="use4411" />
+              <g
+                 id="use4413"
+                 transform="rotate(-3.9999998,-24305.021,848.74982)">
+                <path
+                   d="m -31.5,0 h 13 v -26 h 28 a 22,22 0 0 0 0,-44 h -40 z m 13,-39 h 27 a 9,9 0 0 0 0,-18 h -27 z"
+                   fill-rule="evenodd"
+                   id="use271" />
+                <path
+                   id="path273"
+                   d="m 28,0 c 0,-10 0,-32 -15,-32 H -6 c 22,0 22,22 22,32" />
+              </g>
+              <path
+                 d="m -61.120669,-1696.6917 32.994975,-0.5759 a 30,30 0 0 0 29.4718583,-30.5191 l -0.1745241,-9.9984 a 30,30 0 0 0 -30.5190032,-29.4719 l -32.994974,0.5759 z m 12.771139,-13.2249 18.997107,-0.3316 a 19,19 0 0 0 18.66551,-19.3287 l -0.104714,-5.9991 a 19,19 0 0 0 -19.328702,-18.6655 l -18.997107,0.3316 z"
+                 fill-rule="evenodd"
+                 id="use4415" />
+              <path
+                 d="m 27.76109,-1697.5653 62.961622,2.1987 0.453694,-12.9921 -50.968932,-1.7799 0.628191,-17.989 39.975633,1.396 0.418794,-11.9927 -39.975633,-1.396 0.488593,-13.9915 47.970759,1.6752 0.453694,-12.9921 -59.96345,-2.0939 z"
+                 id="use4417" />
+              <path
+                 d="m 116.56674,-1693.7859 11.95433,1.0459 4.18348,-47.8174 9.76325,49.0375 10.95814,0.9588 18.1302,-46.5972 -4.18347,47.8173 11.95433,1.0459 6.1009,-69.7336 -17.4334,-1.5253 -18.13021,46.5972 -9.76325,-49.0375 -17.4334,-1.5252 z"
+                 id="use4419" />
+              <path
+                 d="m 261.59993,-1677.4268 51.74169,8.8908 2.0322,-11.8267 -39.91502,-6.8586 2.70959,-15.7689 32.52335,5.5885 2.03219,-11.8267 -32.52335,-5.5885 1.86285,-10.8411 38.68307,6.647 2.0322,-11.8267 -50.50975,-8.6792 z"
+                 id="use4421" />
+              <path
+                 d="m 394.5234,-1651.3176 12.58592,3.255 6.50988,-25.1719 27.10813,7.0107 a 22.000002,22.000002 0 0 0 11.01672,-42.5985 l -38.7259,-10.0152 z m 22.35074,-34.5028 26.13998,6.7603 a 9.0000206,9.0000206 0 0 0 4.50684,-17.4267 l -26.13998,-6.7603 z"
+                 fill-rule="evenodd"
+                 id="use4423" />
+              <g
+                 id="use4425"
+                 transform="rotate(17.5,5514.4173,848.74999)">
+                <path
+                   d="m -31.5,0 h 13 v -26 h 28 a 22,22 0 0 0 0,-44 h -40 z m 13,-39 h 27 a 9,9 0 0 0 0,-18 h -27 z"
+                   fill-rule="evenodd"
+                   id="use289" />
+                <path
+                   id="path291"
+                   d="m 28,0 c 0,-10 0,-32 -15,-32 H -6 c 22,0 22,22 22,32" />
+              </g>
+              <path
+                 d="m 594.47703,-1590.001 a 31.500019,35.000021 20.5 0 0 24.51451,-65.5671 31.500019,35.000021 20.5 0 0 -24.51451,65.5671 m 4.55269,-12.1768 a 18.50001,22.000012 20.5 0 0 15.40913,-41.2136 18.50001,22.000012 20.5 0 0 -15.40913,41.2136"
+                 fill-rule="evenodd"
+                 id="use4427" />
+              <g
+                 id="use4429"
+                 transform="rotate(23.5,4080.5229,848.74996)">
+                <clipPath
+                   id="clipPath301">
+                  <path
+                     id="path299"
+                     d="m -31.5,0 v -70 h 63 V 0 Z M 0,-47 v 12 h 31.5 v -12 z" />
+                </clipPath>
+                <use
+                   id="use303"
+                   clip-path="url(#gcut)"
+                   xlink:href="#O"
+                   x="0"
+                   y="0"
+                   width="100%"
+                   height="100%" />
+                <path
+                   id="rect305"
+                   d="m 5,-35 h 26.5 v 10 H 5 Z" />
+                <path
+                   id="rect307"
+                   d="m 21.5,-35 h 10 V 0 h -10 z" />
+              </g>
+              <g
+                 id="use4431"
+                 transform="rotate(26.5,3604.5124,848.74998)">
+                <path
+                   d="m -31.5,0 h 13 v -26 h 28 a 22,22 0 0 0 0,-44 h -40 z m 13,-39 h 27 a 9,9 0 0 0 0,-18 h -27 z"
+                   fill-rule="evenodd"
+                   id="use311" />
+                <path
+                   id="path313"
+                   d="m 28,0 c 0,-10 0,-32 -15,-32 H -6 c 22,0 22,22 22,32" />
+              </g>
+              <path
+                 d="m 808.47279,-1492.9401 54.83241,31.0226 6.4015,-11.3146 -44.38814,-25.1136 8.86363,-15.6664 34.81423,19.697 5.90908,-10.4443 -34.81423,-19.697 6.89393,-12.1849 41.77707,23.6363 6.40151,-11.3146 -52.22134,-29.5454 z"
+                 id="use4433" />
+              <path
+                 d="m 910.60326,-1458.6741 c -3.76109,5.9038 0.0512,12.4824 8.48516,17.8554 8.43392,5.373 14.17782,5.1788 16.6041,1.3889 7.65652,-12.0183 -36.60773,-29.5466 -22.96439,-50.497 11.76279,-17.9986 31.88858,-3.9914 39.47911,0.8443 7.59052,4.8357 19.77897,17.3434 10.29971,31.7575 l -12.86172,-8.1938 c 4.02975,-6.3254 -0.39642,-12.4058 -7.14355,-16.7042 -6.53629,-4.1641 -11.84656,-6.065 -15.74199,0.05 -6.52411,9.7755 36.85766,28.2236 23.5595,49.0976 -9.80572,15.3919 -26.86732,8.6724 -38.2531,1.4188 -9.699,-6.1789 -24.19115,-20.7471 -14.74624,-35.4795 z"
+                 id="use4435" />
+              <path
+                 d="m 985.69642,-1409.0177 c -4.06492,5.6988 -0.6021,12.4679 7.53905,18.275 8.14113,5.807 13.88733,5.9137 16.50863,2.256 8.275,-11.6012 -35.01118,-31.422 -20.29008,-51.6297 12.68868,-17.3583 32.05378,-2.317 39.38078,2.9093 7.3271,5.2264 18.8442,18.3548 8.6236,32.2531 l -12.4153,-8.8557 c 4.3553,-6.1059 0.2534,-12.4096 -6.2595,-17.0553 -6.3094,-4.5004 -11.5129,-6.6766 -15.723,-0.7743 -7.02682,9.4207 35.33,30.114 20.9576,50.2633 -10.5978,14.8576 -27.28437,7.2544 -38.27493,-0.5851 -9.36232,-6.6781 -23.07218,-21.9847 -12.86917,-36.2027 z"
+                 id="use4437" />
+              <path
+                 d="m 1056.7186,-1328.4774 a 31.5,35 38.5 0 0 43.576,-54.7825 31.5,35 38.5 0 0 -43.576,54.7825 m 8.0927,-10.1739 a 18.5,22 38.5 0 0 27.3906,-34.4347 18.5,22 38.5 0 0 -27.3906,34.4347"
+                 fill-rule="evenodd"
+                 id="use4439" />
+            </g>
+            <g
+               fill="#ffffff"
+               id="αCMi"
+               transform="matrix(31.5,0,0,31.5,-600,-132)">
+              <g
+                 id="g331">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path327" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use329" />
+              </g>
+              <g
+                 id="use333"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path345" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use347" />
+              </g>
+              <g
+                 id="use335"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path353" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use355" />
+              </g>
+              <g
+                 id="use337"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path361" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use363" />
+              </g>
+              <g
+                 id="use339"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path369" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use371" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="αCMa"
+               transform="matrix(31.5,0,0,31.5,-535,177)">
+              <g
+                 id="g381">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path377" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use379" />
+              </g>
+              <g
+                 id="use383"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path395" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use397" />
+              </g>
+              <g
+                 id="use385"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path403" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use405" />
+              </g>
+              <g
+                 id="use387"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path411" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use413" />
+              </g>
+              <g
+                 id="use389"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path419" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use421" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="βCMa"
+               transform="matrix(26.25,0,0,26.25,-625,243)">
+              <g
+                 id="g431">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path427" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use429" />
+              </g>
+              <g
+                 id="use433"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path445" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use447" />
+              </g>
+              <g
+                 id="use435"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path453" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use455" />
+              </g>
+              <g
+                 id="use437"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path461" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use463" />
+              </g>
+              <g
+                 id="use439"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path469" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use471" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="γCMa"
+               transform="matrix(15,0,0,15,-463,132)">
+              <g
+                 id="g481">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path477" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use479" />
+              </g>
+              <g
+                 id="use483"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path495" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use497" />
+              </g>
+              <g
+                 id="use485"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path503" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use505" />
+              </g>
+              <g
+                 id="use487"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path511" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use513" />
+              </g>
+              <g
+                 id="use489"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path519" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use521" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="δCMa"
+               transform="matrix(26.25,0,0,26.25,-382,250)">
+              <g
+                 id="g531">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path527" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use529" />
+              </g>
+              <g
+                 id="use533"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path545" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use547" />
+              </g>
+              <g
+                 id="use535"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path553" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use555" />
+              </g>
+              <g
+                 id="use537"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path561" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use563" />
+              </g>
+              <g
+                 id="use539"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path569" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use571" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="εCMa"
+               transform="matrix(21,0,0,21,-404,323)">
+              <g
+                 id="g581">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path577" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use579" />
+              </g>
+              <g
+                 id="use583"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path595" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use597" />
+              </g>
+              <g
+                 id="use585"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path603" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use605" />
+              </g>
+              <g
+                 id="use587"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path611" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use613" />
+              </g>
+              <g
+                 id="use589"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path619" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use621" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="αVir"
+               transform="matrix(31.5,0,0,31.5,228,-228)">
+              <g
+                 id="g631">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path627" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use629" />
+              </g>
+              <g
+                 id="use633"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path645" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use647" />
+              </g>
+              <g
+                 id="use635"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path653" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use655" />
+              </g>
+              <g
+                 id="use637"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path661" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use663" />
+              </g>
+              <g
+                 id="use639"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path669" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use671" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="αSco"
+               transform="matrix(31.5,0,0,31.5,515,258)">
+              <g
+                 id="g681">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path677" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use679" />
+              </g>
+              <g
+                 id="use683"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path695" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use697" />
+              </g>
+              <g
+                 id="use685"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path703" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use705" />
+              </g>
+              <g
+                 id="use687"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path711" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use713" />
+              </g>
+              <g
+                 id="use689"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path719" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use721" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="βSco"
+               transform="matrix(21,0,0,21,617,265)">
+              <g
+                 id="g731">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path727" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use729" />
+              </g>
+              <g
+                 id="use733"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path745" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use747" />
+              </g>
+              <g
+                 id="use735"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path753" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use755" />
+              </g>
+              <g
+                 id="use737"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path761" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use763" />
+              </g>
+              <g
+                 id="use739"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path769" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use771" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="εSco"
+               transform="matrix(26.25,0,0,26.25,545,323)">
+              <g
+                 id="g781">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path777" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use779" />
+              </g>
+              <g
+                 id="use783"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path795" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use797" />
+              </g>
+              <g
+                 id="use785"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path803" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use805" />
+              </g>
+              <g
+                 id="use787"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path811" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use813" />
+              </g>
+              <g
+                 id="use789"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path819" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use821" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="θSco"
+               transform="matrix(26.25,0,0,26.25,368,477)">
+              <g
+                 id="g831">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path827" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use829" />
+              </g>
+              <g
+                 id="use833"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path845" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use847" />
+              </g>
+              <g
+                 id="use835"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path853" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use855" />
+              </g>
+              <g
+                 id="use837"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path861" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use863" />
+              </g>
+              <g
+                 id="use839"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path869" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use871" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="ιSco"
+               transform="matrix(21,0,0,21,367,551)">
+              <g
+                 id="g881">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path877" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use879" />
+              </g>
+              <g
+                 id="use883"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path895" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use897" />
+              </g>
+              <g
+                 id="use885"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path903" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use905" />
+              </g>
+              <g
+                 id="use887"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path911" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use913" />
+              </g>
+              <g
+                 id="use889"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path919" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use921" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="κSco"
+               transform="matrix(21,0,0,21,441,419)">
+              <g
+                 id="g931">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path927" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use929" />
+              </g>
+              <g
+                 id="use933"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path945" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use947" />
+              </g>
+              <g
+                 id="use935"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path953" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use955" />
+              </g>
+              <g
+                 id="use937"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path961" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use963" />
+              </g>
+              <g
+                 id="use939"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path969" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use971" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="λSco"
+               transform="matrix(26.25,0,0,26.25,500,382)">
+              <g
+                 id="g981">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path977" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use979" />
+              </g>
+              <g
+                 id="use983"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path995" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use997" />
+              </g>
+              <g
+                 id="use985"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1003" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1005" />
+              </g>
+              <g
+                 id="use987"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1011" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1013" />
+              </g>
+              <g
+                 id="use989"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1019" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1021" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="μSco"
+               transform="matrix(21,0,0,21,365,405)">
+              <g
+                 id="g1031">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1027" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1029" />
+              </g>
+              <g
+                 id="use1033"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1045" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1047" />
+              </g>
+              <g
+                 id="use1035"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1053" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1055" />
+              </g>
+              <g
+                 id="use1037"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1061" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1063" />
+              </g>
+              <g
+                 id="use1039"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1069" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1071" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="αHya"
+               transform="matrix(26.25,0,0,26.25,-280,30)">
+              <g
+                 id="g1081">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1077" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1079" />
+              </g>
+              <g
+                 id="use1083"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1095" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1097" />
+              </g>
+              <g
+                 id="use1085"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1103" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1105" />
+              </g>
+              <g
+                 id="use1087"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1111" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1113" />
+              </g>
+              <g
+                 id="use1089"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1119" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1121" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="γHya"
+               transform="matrix(21,0,0,21,200,-37)">
+              <g
+                 id="g1131">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1127" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1129" />
+              </g>
+              <g
+                 id="use1133"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1145" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1147" />
+              </g>
+              <g
+                 id="use1135"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1153" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1155" />
+              </g>
+              <g
+                 id="use1137"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1161" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1163" />
+              </g>
+              <g
+                 id="use1139"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1169" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1171" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="αCru"
+               transform="matrix(31.5,0,0,31.5,0,330)">
+              <g
+                 id="g1181">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1177" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1179" />
+              </g>
+              <g
+                 id="use1183"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1195" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1197" />
+              </g>
+              <g
+                 id="use1185"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1203" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1205" />
+              </g>
+              <g
+                 id="use1187"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1211" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1213" />
+              </g>
+              <g
+                 id="use1189"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1219" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1221" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="βCru"
+               transform="matrix(26.25,0,0,26.25,85,184)">
+              <g
+                 id="g1231">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1227" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1229" />
+              </g>
+              <g
+                 id="use1233"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1245" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1247" />
+              </g>
+              <g
+                 id="use1235"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1253" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1255" />
+              </g>
+              <g
+                 id="use1237"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1261" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1263" />
+              </g>
+              <g
+                 id="use1239"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1269" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1271" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="γCru"
+               transform="matrix(26.25,0,0,26.25,0,118)">
+              <g
+                 id="g1281">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1277" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1279" />
+              </g>
+              <g
+                 id="use1283"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1295" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1297" />
+              </g>
+              <g
+                 id="use1285"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1303" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1305" />
+              </g>
+              <g
+                 id="use1287"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1311" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1313" />
+              </g>
+              <g
+                 id="use1289"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1319" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1321" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="δCru"
+               transform="matrix(21,0,0,21,-74,184)">
+              <g
+                 id="g1331">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1327" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1329" />
+              </g>
+              <g
+                 id="use1333"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1345" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1347" />
+              </g>
+              <g
+                 id="use1335"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1353" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1355" />
+              </g>
+              <g
+                 id="use1337"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1361" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1363" />
+              </g>
+              <g
+                 id="use1339"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1369" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1371" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="εCru"
+               transform="matrix(15,0,0,15,-37,235)">
+              <g
+                 id="g1381">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1377" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1379" />
+              </g>
+              <g
+                 id="use1383"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1395" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1397" />
+              </g>
+              <g
+                 id="use1385"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1403" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1405" />
+              </g>
+              <g
+                 id="use1387"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1411" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1413" />
+              </g>
+              <g
+                 id="use1389"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1419" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1421" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="αTrA"
+               transform="matrix(26.25,0,0,26.25,220,495)">
+              <g
+                 id="g1431">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1427" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1429" />
+              </g>
+              <g
+                 id="use1433"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1445" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1447" />
+              </g>
+              <g
+                 id="use1435"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1453" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1455" />
+              </g>
+              <g
+                 id="use1437"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1461" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1463" />
+              </g>
+              <g
+                 id="use1439"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1469" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1471" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="βTrA"
+               transform="matrix(21,0,0,21,283,430)">
+              <g
+                 id="g1481">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1477" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1479" />
+              </g>
+              <g
+                 id="use1483"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1495" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1497" />
+              </g>
+              <g
+                 id="use1485"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1503" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1505" />
+              </g>
+              <g
+                 id="use1487"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1511" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1513" />
+              </g>
+              <g
+                 id="use1489"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1519" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1521" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="γTrA"
+               transform="matrix(21,0,0,21,162,412)">
+              <g
+                 id="g1531">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1527" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1529" />
+              </g>
+              <g
+                 id="use1533"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1545" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1547" />
+              </g>
+              <g
+                 id="use1535"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1553" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1555" />
+              </g>
+              <g
+                 id="use1537"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1561" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1563" />
+              </g>
+              <g
+                 id="use1539"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1569" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1571" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="αCar"
+               transform="matrix(31.5,0,0,31.5,-295,390)">
+              <g
+                 id="g1581">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1577" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1579" />
+              </g>
+              <g
+                 id="use1583"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1595" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1597" />
+              </g>
+              <g
+                 id="use1585"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1603" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1605" />
+              </g>
+              <g
+                 id="use1587"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1611" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1613" />
+              </g>
+              <g
+                 id="use1589"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1619" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1621" />
+              </g>
+            </g>
+            <g
+               fill="#ffffff"
+               id="σOct"
+               transform="matrix(10.5,0,0,10.5,0,575)">
+              <g
+                 id="g1631">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1627" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1629" />
+              </g>
+              <g
+                 id="use1633"
+                 transform="rotate(72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1645" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1647" />
+              </g>
+              <g
+                 id="use1635"
+                 transform="rotate(-72)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1653" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1655" />
+              </g>
+              <g
+                 id="use1637"
+                 transform="rotate(144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1661" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1663" />
+              </g>
+              <g
+                 id="use1639"
+                 transform="rotate(-144)">
+                <path
+                   d="M 0,-1 V 0 H 0.5"
+                   transform="rotate(18,0,-1)"
+                   id="path1669" />
+                <path
+                   d="m 0,-1 0.30901699,0.95105652 -0.47552825,0.15450849"
+                   id="use1671" />
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

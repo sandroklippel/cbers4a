@@ -23,7 +23,8 @@
 # SOFTWARE.
 
 
-from .qgis_cbers4a_downloader import Cbers4aDownloader
+from qgis.PyQt import QtWidgets
+from .dockcbers4adownloaderbase import Ui_DockCbers4aDownloader
 
 __author__ = "Sandro Klippel"
 __copyright__ = "Copyright 2020, Sandro Klippel"
@@ -35,5 +36,9 @@ __status__ = "Prototype"
 __revision__ = '$Format:%H$'
 
 
-def classFactory(iface):
-    return Cbers4aDownloader(iface)
+class DockCbers4aDownloader(QtWidgets.QDockWidget, Ui_DockCbers4aDownloader):
+
+    def __init__(self, parent=None):
+
+        super(DockCbers4aDownloader, self).__init__(parent)
+        self.setupUi(self)
