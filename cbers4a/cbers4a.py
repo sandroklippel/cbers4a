@@ -37,10 +37,6 @@ from tempfile import gettempdir
 
 import requests
 
-try:
-    from tqdm import tqdm as progressbar
-except ImportError:
-    from progressbar import PrintBytes as progressbar
 
 __author__ = "Sandro Klippel"
 __copyright__ = "Copyright 2020, Sandro Klippel"
@@ -49,7 +45,40 @@ __version__ = "0.1.0"
 __maintainer__ = "Sandro Klippel"
 __email__ = "sandroklippel at gmail.com"
 __status__ = "Prototype"
+__revision__ = '$Format:%H$'
 
+
+try:
+    from tqdm import tqdm as ProgressBar
+except ImportError:
+    class ProgressBar(object):
+
+        def __init__(self, **kwargs):
+            self._total = kwargs.get('total', 0)
+            self._desc = kwargs.get('desc', 'Filename.ext')
+            self._downloaded = kwargs.get('initial', 0)
+
+        def __enter__(self):
+            print(
+                "{description}, total size {total} bytes".format(
+                    description=self._desc, total=self._total
+                ),
+                file=sys.stderr,
+            )
+            return self
+
+        def __exit__(self, exception_type, exception_val, trace):
+            print(file=sys.stderr)
+            return True
+
+        def update(self, b):
+            """
+            docstring
+            """
+            self._downloaded = self._downloaded + b
+            print(
+                "Downloading: {x} bytes".format(x=self._downloaded), end="\r", file=sys.stderr
+            )
 
 
 class Item(object):
@@ -62,8 +91,9 @@ class Item(object):
         """
         docstring
         """
-        row = "{id:<30s} {date:^15s} {cloud:>15.1f}".format
-        return row(id=self.id, date=self.date, cloud=self.get_property('cloud_cover'))
+        # row = "{id:<25s} {date:^10s} {cloud:>4.1f}%".format
+        # return row(id=self.id, date=self.date, cloud=self.get_property('cloud_cover'))
+        return self.id
 
     def __lt__(self, other):
         """
@@ -120,6 +150,28 @@ class Item(object):
         """
         return list(self._feature['assets'].keys())
 
+    @property
+    def cloud_cover(self):
+        """
+        Cloud coverage %
+        """
+        return self.get_property('cloud_cover')
+
+    @property
+    def html(self):
+        """
+        html representation
+        """
+
+        html = f"""
+        <html>
+        <body>
+        <img style="display: block; margin-left: auto; margin-right: auto;" src="{self.thumbnail}" width="296" border="0" />
+        </body>
+        </html> 
+        """
+        return html
+
     def get_datetime(self):
         """
         The acquisition date and time of the assets
@@ -146,11 +198,17 @@ class Item(object):
         """
         return self._feature['properties'].get(p, v)
 
+    def url(self, asset):
+        """
+        Get asset url 
+        """
+        return self._feature['assets'][asset]['href']
+
     def download(self, asset, credential, outdir=gettempdir(), session=requests.Session()):
         """
         Download the asset.
         """
-        url = self._feature['assets'][asset]['href']
+        url = self.url(asset)
         filename = url.split("/")[-1]
         outfile = join(outdir, filename)
         r = session.get(url, params={'key': credential}, stream=True, allow_redirects=True)
@@ -158,7 +216,7 @@ class Item(object):
             total_size = int(r.headers.get('content-length'))
             initial_pos = 0
             with open(outfile,'wb') as f:
-                with progressbar(total=total_size, unit='B', unit_scale=True, desc=filename, initial=initial_pos, ascii=True) as pb:
+                with ProgressBar(total=total_size, unit='B', unit_scale=True, desc=filename, initial=initial_pos, ascii=True) as pb:
                     for ch in r.iter_content(chunk_size=1024):
                         if ch:
                             f.write(ch)
