@@ -4,7 +4,7 @@
 name=CBERS4A Downloader
 description=CBERS4A Downloader QGIS Plugin
 about=Search and download CBERS4A imagery from INPE (Brazilian National Institute for Space Research). 
-    To download it is necessary to register at http://www2.dgi.inpe.br/catalogo/explore
+    To download the images it is necessary to register at http://www2.dgi.inpe.br/catalogo/explore
 version=0.1
 qgisMinimumVersion=3.10
 author=Sandro Klippel
@@ -24,4 +24,4 @@ tags=layers, raster, remote sensing, search, export, imagery, download
 homepage=https://github.com/sandroklippel/cbers4a/wiki
 
 category=Plugins
-icon=cbers4a.png
+icon=cbers4a.svg
