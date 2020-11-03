@@ -17,4 +17,4 @@ $(ZIPFILE): $(PLUGIN_FILES)
 	zip $(ZIPFILE) $(PLUGIN_FILES)
 
 ui: dockcbers4adownloader.ui
-    pyuic5 --from-imports --resource-suffix '' dockcbers4adownloader.ui > dockcbers4adownloaderbase.py
+	pyuic5 --from-imports --resource-suffix '' dockcbers4adownloader.ui > dockcbers4adownloaderbase.py
