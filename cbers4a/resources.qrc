@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/cbers4a" >
+        <file>cbers4a.svg</file>
+    </qresource>
+</RCC>
