@@ -19,7 +19,7 @@
   <property name="minimumSize">
    <size>
     <width>360</width>
-    <height>46</height>
+    <height>82</height>
    </size>
   </property>
   <property name="maximumSize">
@@ -30,6 +30,9 @@
   </property>
   <property name="floating">
    <bool>true</bool>
+  </property>
+  <property name="features">
+   <set>QDockWidget::AllDockWidgetFeatures</set>
   </property>
   <property name="allowedAreas">
    <set>Qt::RightDockWidgetArea</set>
@@ -539,6 +542,13 @@
        </attribute>
        <layout class="QVBoxLayout" name="verticalLayout_3">
         <item>
+         <widget class="QLabel" name="label_13">
+          <property name="text">
+           <string>Click on a scene to preview it.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QListWidget" name="resultsList">
           <property name="frameShape">
            <enum>QFrame::Box</enum>
@@ -561,6 +571,12 @@
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
          <widget class="QLabel" name="item_id">
+          <property name="frameShape">
+           <enum>QFrame::Panel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
           <property name="text">
            <string/>
           </property>
@@ -575,23 +591,81 @@
         <item>
          <widget class="QFrame" name="frame_4">
           <property name="frameShape">
-           <enum>QFrame::NoFrame</enum>
+           <enum>QFrame::Box</enum>
           </property>
           <property name="frameShadow">
-           <enum>QFrame::Raised</enum>
+           <enum>QFrame::Sunken</enum>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout_2">
            <item>
             <widget class="QLabel" name="item_date">
+             <property name="maximumSize">
+              <size>
+               <width>106</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="toolTip">
+              <string>The acquisition date.</string>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::Panel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Sunken</enum>
+             </property>
              <property name="text">
               <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
              </property>
             </widget>
            </item>
            <item>
             <widget class="QLabel" name="item_cloudcover">
+             <property name="maximumSize">
+              <size>
+               <width>106</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="toolTip">
+              <string>Cloud coverage.</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::Panel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Sunken</enum>
+             </property>
              <property name="text">
               <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="footprint">
+             <property name="maximumSize">
+              <size>
+               <width>106</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="toolTip">
+              <string>Shows the image extent.</string>
+             </property>
+             <property name="text">
+              <string>Footprint</string>
+             </property>
+             <property name="checkable">
+              <bool>true</bool>
              </property>
             </widget>
            </item>
@@ -601,35 +675,14 @@
         <item>
          <widget class="QLabel" name="label">
           <property name="text">
-           <string/>
+           <string>Assets to download:</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QListWidget" name="assetsList">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>16777215</width>
-            <height>60</height>
-           </size>
-          </property>
-          <property name="frameShape">
-           <enum>QFrame::NoFrame</enum>
-          </property>
-          <property name="frameShadow">
-           <enum>QFrame::Plain</enum>
-          </property>
-          <property name="selectionMode">
-           <enum>QAbstractItemView::MultiSelection</enum>
-          </property>
-          <property name="viewMode">
-           <enum>QListView::IconMode</enum>
+         <widget class="QgsCheckableComboBox" name="assetsList">
+          <property name="defaultText">
+           <string>ALL</string>
           </property>
          </widget>
         </item>
@@ -649,6 +702,11 @@
  </widget>
  <customwidgets>
   <customwidget>
+   <class>QgsCheckableComboBox</class>
+   <extends>QComboBox</extends>
+   <header>qgscheckablecombobox.h</header>
+  </customwidget>
+  <customwidget>
    <class>QgsFileWidget</class>
    <extends>QWidget</extends>
    <header>qgsfilewidget.h</header>
@@ -664,6 +722,21 @@
    <header>QtWebKitWidgets/QWebView</header>
   </customwidget>
  </customwidgets>
+ <tabstops>
+  <tabstop>tabs</tabstop>
+  <tabstop>collection</tabstop>
+  <tabstop>startdate</tabstop>
+  <tabstop>enddate</tabstop>
+  <tabstop>cloudcover</tabstop>
+  <tabstop>limit</tabstop>
+  <tabstop>credential</tabstop>
+  <tabstop>searchButton</tabstop>
+  <tabstop>resultsList</tabstop>
+  <tabstop>webView</tabstop>
+  <tabstop>footprint</tabstop>
+  <tabstop>assetsList</tabstop>
+  <tabstop>downloadButton</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
