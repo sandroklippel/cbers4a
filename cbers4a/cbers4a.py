@@ -91,9 +91,23 @@ class Item(object):
         """
         docstring
         """
-        # row = "{id:<25s} {date:^10s} {cloud:>4.1f}%".format
-        # return row(id=self.id, date=self.date, cloud=self.get_property('cloud_cover'))
-        return self.id
+        row = "{id:<25s} {date:^10s} {cloud:>15.1f}".format
+        return row(id=self.id, date=self.date, cloud=self.get_property('cloud_cover'))
+
+    def _repr_html_(self):
+        """
+        html representation
+        """
+
+        html = f"""
+        <html>
+        <body>
+        <img style="display: block; margin-left: auto; margin-right: auto;" src="{self.thumbnail}" width="296" border="0" />
+        </body>
+        </html> 
+        """
+
+        return html
 
     def __lt__(self, other):
         """
@@ -158,19 +172,26 @@ class Item(object):
         return self.get_property('cloud_cover')
 
     @property
+    def path_row(self):
+        """
+        Return a string 'PATH_ROW'
+        """
+        return str(self.get_property('path','')) + '_' + str(self.get_property('row',''))
+
+    @property
+    def sensor(self):
+        """
+        Return the sensor
+        """
+        return self.get_property('sensor')
+
+    @property
     def html(self):
         """
-        html representation
+        Html to show image preview
         """
 
-        html = f"""
-        <html>
-        <body>
-        <img style="display: block; margin-left: auto; margin-right: auto;" src="{self.thumbnail}" width="296" border="0" />
-        </body>
-        </html> 
-        """
-        return html
+        return self._repr_html_()
 
     def get_datetime(self):
         """
@@ -217,7 +238,7 @@ class Item(object):
             initial_pos = 0
             with open(outfile,'wb') as f:
                 with ProgressBar(total=total_size, unit='B', unit_scale=True, desc=filename, initial=initial_pos, ascii=True) as pb:
-                    for ch in r.iter_content(chunk_size=1024):
+                    for ch in r.iter_content(chunk_size=4096): # (page size 4Kb)
                         if ch:
                             f.write(ch)
                             pb.update(len(ch))
@@ -574,12 +595,12 @@ def cli():
         elif params['total']:
             print(result.matched)
         else:
-            head = "{id:<30s} {date:^15s} {cloud:>15s}".format(id='id', date='date', cloud='cloud cover (%)')
+            head = "{id:<25s} {date:^10s} {cloud:>15s}".format(id='id', date='date', cloud='cloud cover (%)')
             print(head + '    assets' if params['detail'] else head)
             for item in result:
                 print(str(item) + '    ' + ' '.join(item.assets) if params['detail'] else item)
             if not result.complete:
-                print('There are more items found ({0}) than the returned ({1}).'.format(result.matched, result.returned), 
+                print('Returned {0} scenes from {1} matched.'.format(result.returned, result.matched), 
                 file=sys.stderr)
         search_inpe_stac.close()
 
