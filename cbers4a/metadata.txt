@@ -5,7 +5,7 @@ name=CBERS4A Downloader
 description=CBERS4A Downloader QGIS Plugin
 about=Search, preview and download CBERS4A imagery from INPE (Brazil's National Institute for Space Research). 
     To download the images it is necessary to register at http://www2.dgi.inpe.br/catalogo/explore.
-version=0.2
+version=0.3
 qgisMinimumVersion=3.10
 author=Sandro Klippel
 email=sandroklippel@gmail.com
@@ -14,9 +14,15 @@ tracker=https://github.com/sandroklippel/cbers4a/issues
 
 # optional
 
-hasProcessingProvider=no
+hasProcessingProvider=yes
 
-changelog=[0.2] - 2020-11-12
+changelog=[0.3] - 2020-11-23
+  - Adds processing algorithm for pansharpening and VRT building.
+  - The cancel download button color changed to red.
+  - Fixes bands stack to RGBN order in VRT file.
+  - Cleans the tasks variable.
+  - Fixes downloads.
+  [0.2] - 2020-11-12
   - QGIS global settings for default values:
   - * cbers4a/colorstroke.
   - * cbers4a/cloudcover.
@@ -31,7 +37,7 @@ changelog=[0.2] - 2020-11-12
   [0.1] - 2020-11-02
   - First release.
 
-tags=layers, raster, remote sensing, search, export, imagery, download, cbers
+tags=layers, raster, remote sensing, search, export, imagery, download, cbers, Brazil
 
 homepage=https://github.com/sandroklippel/cbers4a/wiki
 

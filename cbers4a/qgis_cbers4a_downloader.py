@@ -44,6 +44,8 @@ from .cbers4a import Search
 from .dockcbers4adownloader import DockCbers4aDownloader
 from .resources import *
 
+from .provider import Provider
+
 __author__ = "Sandro Klippel"
 __copyright__ = "Copyright 2020, Sandro Klippel"
 __license__ = "MIT"
@@ -68,6 +70,7 @@ class Cbers4aDownloader:
         self.iface = iface
         self.plugin_dir = os.path.dirname(__file__)
         self.dockwidget = None
+        self.provider = None
         self.action = None
         self.name = 'CBERS4A Downloader'
         self.about = 'Search and download CBERS4A imagery'
@@ -80,13 +83,20 @@ class Cbers4aDownloader:
         self.downloading = False
         self.outputfolder = QgsProject.instance().absolutePath() or gettempdir()
 
+    def initProcessing(self):
+        self.provider = Provider()
+        QgsApplication.processingRegistry().addProvider(self.provider)
+
     def initGui(self):
         """
         This method is called by QGIS when the main GUI starts up or 
         when the plugin is enabled in the Plugin Manager.
         Only want to register the menu items and toolbar buttons here,
         and connects action with run method.
-        """        
+        """ 
+        
+        self.initProcessing()
+
         icon = QIcon(':/plugins/cbers4a/cbers4a.svg')
         self.action = QAction(icon, self.name, self.iface.mainWindow())
         self.action.setWhatsThis(self.about)
@@ -160,9 +170,12 @@ class Cbers4aDownloader:
         # if self.toolbar is not None:
             # del self.toolbar
 
+        # remove processing provider
+        QgsApplication.processingRegistry().removeProvider(self.provider)
+
         # clean up task
         try:
-            del globals()['cbers4a_task']
+            del globals()['cbers4a_tasks']
         except KeyError:
             pass
 
@@ -366,6 +379,7 @@ class Cbers4aDownloader:
             self.dockwidget.options.setDisabled(True)
             self.dockwidget.results.setDisabled(True)
             self.dockwidget.downloadButton.setText('Cancel Download')
+            self.dockwidget.downloadButton.setStyleSheet('background-color: #ff3336')
             self.dockwidget.assetsList.setDisabled(True)
 
 
@@ -387,6 +401,7 @@ class Cbers4aDownloader:
         """
         self.log('Started task {}'.format(task.description()))
         credential = self.dockwidget.credential.text()
+        collection = self.result[item_id].collection
         outdir = self.dockwidget.outputfolder.lineEdit().text() or self.outputfolder
         session = self.search.session
         filenames = {}
@@ -394,7 +409,7 @@ class Cbers4aDownloader:
             url = self.result[item_id].url(asset)
             filename = url.split("/")[-1]
             outfile = os.path.join(outdir, filename)
-            r = session.get(url, params={'key': credential}, stream=True, allow_redirects=True)
+            r = session.get(url, params={'email': credential, 'item_id': item_id, 'collection': collection}, stream=True, allow_redirects=True)
             if r.status_code == 200:
                 total_size = int(r.headers.get('content-length'))
                 size = 0
@@ -440,9 +455,12 @@ class Cbers4aDownloader:
                 if len(images) > 1:
                     # stack images in a VRT file if there are more than one image left
                     vrtfile = os.path.join(outdir, description + '.vrt')
-                    filenames = [images[k] for k in images.keys()]
+                    # to sort in r/g/b/nir order here sort(images.keys, key=lambda k: rgbn[k])
+                    _RGBN = {'red': 1, 'green': 2, 'blue': 3, 'nir': 4}
+                    images_keys_ordered = sorted(images.keys(), key=lambda k: _RGBN.get(k,5))
+                    filenames = [images[k] for k in images_keys_ordered] # filenames list in RGBN order
                     ds = gdal.BuildVRT(vrtfile, filenames, options=gdal.BuildVRTOptions(separate=True, resolution='highest'))
-                    for i, bn in enumerate(images):
+                    for i, bn in enumerate(images_keys_ordered):
                         b = ds.GetRasterBand(i + 1)
                         b.SetDescription(bn)
                     ds.FlushCache()
@@ -487,6 +505,7 @@ class Cbers4aDownloader:
         self.dockwidget.options.setEnabled(True)
         self.dockwidget.results.setEnabled(True)
         self.dockwidget.downloadButton.setText('Download')
+        self.dockwidget.downloadButton.setStyleSheet('background-color: None') # restore default background color
         self.dockwidget.assetsList.setEnabled(True)
 
         if exception is None:

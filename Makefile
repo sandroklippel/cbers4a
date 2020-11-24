@@ -5,11 +5,13 @@ PLUGIN_FILES=cbers4a/__init__.py                  \
              cbers4a/dockcbers4adownloader.py     \
              cbers4a/dockcbers4adownloaderbase.py \
              cbers4a/qgis_cbers4a_downloader.py   \
-			 cbers4a/resources.py                 \
+	     cbers4a/processing_algorithm.py      \
+	     cbers4a/provider.py                  \
+	     cbers4a/resources.py                 \
              cbers4a/metadata.txt                 \
              cbers4a/cbers4a.png                  \
-			 cbers4a/grid/cbers4a_mux.json        \
-			 cbers4a/grid/cbers4a_wfi.json
+	     cbers4a/grid/cbers4a_mux.json        \
+	     cbers4a/grid/cbers4a_wfi.json
 
 BUILD_FILES=cbers4a/__main__.py                  \
             cbers4a/cbers4a.py                   \

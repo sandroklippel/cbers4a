@@ -232,7 +232,7 @@ class Item(object):
         url = self.url(asset)
         filename = url.split("/")[-1]
         outfile = join(outdir, filename)
-        r = session.get(url, params={'key': credential}, stream=True, allow_redirects=True)
+        r = session.get(url, params={'email': credential, 'item_id': self.id, 'collection': self.collection}, stream=True, allow_redirects=True)
         if r.status_code == 200:
             total_size = int(r.headers.get('content-length'))
             initial_pos = 0
