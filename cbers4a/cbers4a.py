@@ -41,7 +41,6 @@ import requests
 __author__ = "Sandro Klippel"
 __copyright__ = "Copyright 2020, Sandro Klippel"
 __license__ = "MIT"
-__version__ = "0.1.0"
 __maintainer__ = "Sandro Klippel"
 __email__ = "sandroklippel at gmail.com"
 __status__ = "Prototype"
@@ -357,7 +356,7 @@ class Search(object):
     # INPE STAC Catalog 
     base_url = 'http://www2.dgi.inpe.br/inpe-stac'
     collection_endpoint = '/collections'
-    search_endpoint = '/stac/search'
+    search_endpoint = '/search'
 
     # http
     # timeout = 12
