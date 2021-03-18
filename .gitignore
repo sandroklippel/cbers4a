@@ -1,0 +1,12 @@
+*.py[cod]
+__pycache__/
+*.ipynb
+*.tiff
+*.geojson
+*.sh
+*.zip
+venv/
+.vscode/
+build/
+bak/
+old/
