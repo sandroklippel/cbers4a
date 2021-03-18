@@ -446,13 +446,13 @@ class Search(object):
         """
         docstring
         """
-        self.update(time=interval)
+        self.update(datetime=interval)
 
     def date(self, start, end):
         """
         docstring
         """
-        self.update(time=f'{start}T00:00:00/{end}T23:59:00')
+        self.update(datetime=f'{start}T00:00:00Z/{end}T23:59:00Z')
 
     def intersects(self, intersects):
         """

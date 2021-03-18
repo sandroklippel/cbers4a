@@ -23,7 +23,7 @@ APP=cbers4a.pyz
 plugin: clean $(ZIPFILE)
 
 clean:
-	rm $(PLUGIN).zip
+	rm -rf $(PLUGIN).zip
 
 $(ZIPFILE): $(PLUGIN_FILES)
 	zip $(ZIPFILE) $(PLUGIN_FILES)
