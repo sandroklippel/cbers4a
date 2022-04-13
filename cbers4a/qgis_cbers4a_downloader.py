@@ -33,7 +33,7 @@ gdal.UseExceptions()
 from qgis.core import (Qgis, QgsApplication, QgsCoordinateReferenceSystem,
                        QgsCoordinateTransform, QgsGeometry, QgsMessageLog,
                        QgsPointXY, QgsProject, QgsRasterLayer, QgsRectangle,
-                       QgsSettings, QgsTask)
+                       QgsSettings, QgsTask, QgsNetworkAccessManager)
 from qgis.gui import QgsRubberBand
 from qgis.PyQt.QtCore import QDate, Qt
 from qgis.PyQt.QtGui import QColor, QIcon
@@ -190,6 +190,8 @@ class Cbers4aDownloader:
             self.dockwidget.visibilityChanged.connect(self.visibility_changed)
             self.init()
             self.dockwidget.show()
+            webPage = self.dockwidget.webView.page()
+            webPage.setNetworkAccessManager(QgsNetworkAccessManager.instance())
         else:
             if self.dockwidget.isVisible():
                 self.dockwidget.footprint.setChecked(False)
