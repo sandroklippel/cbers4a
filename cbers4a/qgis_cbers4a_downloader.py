@@ -271,7 +271,7 @@ class Cbers4aDownloader:
 
         # set valid minimum dates
         mindate = self.collections.get_temporal_extent(inpe_collections[collection_id])[0].split('-')
-        year, month, day = int(mindate[0]), int(mindate[1]), int(mindate[2])
+        year, month, day = int(mindate[0]), int(mindate[1]), int(mindate[2].split('T')[0]) # fix by Gerardo Perez <gfep.gis@gmail.com> 
         self.dockwidget.startdate.setMinimumDate(QDate(year, month, day))
         self.dockwidget.enddate.setMinimumDate(QDate(year, month, day))
 
