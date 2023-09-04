@@ -33,7 +33,8 @@ gdal.UseExceptions()
 from qgis.core import (Qgis, QgsApplication, QgsCoordinateReferenceSystem,
                        QgsCoordinateTransform, QgsGeometry, QgsMessageLog,
                        QgsPointXY, QgsProject, QgsRasterLayer, QgsRectangle,
-                       QgsSettings, QgsTask, QgsNetworkAccessManager)
+                       QgsSettings, QgsTask, QgsNetworkAccessManager,
+                       QgsWkbTypes)
 from qgis.gui import QgsRubberBand
 from qgis.PyQt.QtCore import QDate, Qt
 from qgis.PyQt.QtGui import QColor, QIcon
@@ -76,7 +77,10 @@ class Cbers4aDownloader:
         self.search = None
         self.collections = None
         self.result = None
-        self.footprint = QgsRubberBand(iface.mapCanvas(), True)
+        self.footprint = QgsRubberBand(
+            iface.mapCanvas(),
+            geometryType=QgsWkbTypes.PolygonGeometry
+        )
         self.mux_grid = None
         self.wfi_grid = None
         self.downloading = False
