@@ -354,7 +354,7 @@ class Search(object):
     """Simple class to search INPE STAC Catalog"""
     
     # INPE STAC Catalog 
-    base_url = 'http://www2.dgi.inpe.br/inpe-stac'
+    base_url = 'http://www.dgi.inpe.br/lgi-stac'
     collection_endpoint = '/collections'
     search_endpoint = '/search'
 
